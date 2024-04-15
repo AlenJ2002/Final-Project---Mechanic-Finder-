@@ -1,3 +1,5 @@
+using FinalAssignment.Classes;
+
 namespace FinalAssignment.Pages {
 
     public partial class LoginPage : ContentPage {
@@ -6,12 +8,12 @@ namespace FinalAssignment.Pages {
         }
 
         private void OnUsernameTextClicked(object sender, EventArgs e) {
-            string usernameOrEmail = UsernameEntry.Text; // Used to access the text
+            string email = emailEntry.Text; // Used to access the text
 
             // Validation 
-            if (string.IsNullOrEmpty(usernameOrEmail)) {
+            if (string.IsNullOrEmpty(email)) {
                 // Alert the user 
-                DisplayAlert("Wrong Username or Email. Please try again");
+                DisplayAlert("Email cannot be empty. Please try again");
 
             }
         }
@@ -21,6 +23,13 @@ namespace FinalAssignment.Pages {
         }
 
         private async void ContinueClicked(object sender, EventArgs e) {
+            // TODO: Add back in when database is created
+            /*
+            Customer? c = MauiProgram.getDatabaseCommunicator().getCustomerFromDatabase(emailEntry.Text);
+            if (c != null) {
+                MauiProgram.setProfile(c);
+            }*/
+            MauiProgram.setProfile(new Customer("First", "Last", "test@test.com", "123-456-7890", "123 Bob St.", "Kar|Modle|2019", "DIAGNOSTICS|REPAIR|REPAIR|MISC|REPAIR"));
             await Navigation.PushAsync(new HomePage());
         }
     }

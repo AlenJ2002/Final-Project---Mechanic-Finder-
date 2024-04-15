@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAssignment.Pages.ProfilePage">
+
+    <Grid ColumnDefinitions="*,*" RowDefinitions="*">
+        <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center">
+            <Label HorizontalTextAlignment="Center" FontSize="32" FontAttributes="Bold" Text="Welcome"/>
+            <Button Margin="20" HeightRequest="250" WidthRequest="250" CornerRadius="125" IsEnabled="False"/>
+            <Label HorizontalTextAlignment="Center" FontSize="32" x:Name="customerName"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="20"
+                      Padding="30"
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center">
+            <Label Text="Email:"/>
+            <Label x:Name="customerEmail"/>
+
+            <Label Text="Phone:"/>
+            <Label x:Name="customerPhone"/>
+
+            <Label Text="Address:"/>
+            <Label x:Name="customerAddress"/>
+
+            <Label Text="Your vehicle:"/>
+            <Label x:Name="customerVehicle"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

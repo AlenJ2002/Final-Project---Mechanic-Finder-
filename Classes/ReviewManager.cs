@@ -12,23 +12,22 @@ namespace FinalAssignment.Classes {
             reviews.Add(review);
         }
 
-        internal List<Review> GetReviewsForMechanicShop(string mechanicShopName) {
-            return reviews.FindAll(review => review.reviewShopName.Equals(mechanicShopName, StringComparison.OrdinalIgnoreCase));
+        internal List<Review> getReviews() {
+            return this.reviews;
         }
 
         // Method to calculate the average rating for a mechanic shop
-        internal double GetAverageRatingForMechanicShop(string mechanicShopName) {
-            List<Review> shopReviews = GetReviewsForMechanicShop(mechanicShopName);
-            if (shopReviews.Count == 0) {
+        internal double GetAverageRatingForMechanicShop() {
+            if (this.reviews.Count == 0) {
                 return 0; // No reviews yet
             }
 
             int totalRating = 0;
-            foreach (var review in shopReviews) {
+            foreach (var review in this.reviews) {
                 totalRating += review.reviewRating;
             }
 
-            return (double)totalRating / shopReviews.Count;
+            return (double)totalRating / this.reviews.Count;
         }
     }
 

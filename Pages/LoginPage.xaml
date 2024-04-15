@@ -14,9 +14,9 @@
                HorizontalTextAlignment="Center"
                FontAttributes="Bold"/>
 
-        <Label Text="USERNAME."
+        <Label Text="EMAIL."
                FontSize="18"/>
-        <Entry x:Name="UsernameEntry" 
+        <Entry x:Name="emailEntry" 
                Placeholder="Enter here"
                WidthRequest="400"/>
 
@@ -31,10 +31,5 @@
                 Clicked="ContinueClicked"
                 FontSize="18"
                 WidthRequest="400"/>
-
-        <Label Text="FORGOT PASSWORD"
-               FontSize="16"
-               HorizontalOptions="End"/>
-
     </VerticalStackLayout>
 </ContentPage>

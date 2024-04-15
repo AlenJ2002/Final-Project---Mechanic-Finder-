@@ -8,7 +8,7 @@
 
     internal class Service {
 
-        private static readonly Dictionary<ServiceEnum, Double> serviceCost = new Dictionary<ServiceEnum, Double>();
+        private readonly Dictionary<ServiceEnum, Double> serviceCost = new Dictionary<ServiceEnum, Double>();
 
         // Constructor to initialize the pricing model with example services
         public Service() {
@@ -18,10 +18,12 @@
             serviceCost.Add(ServiceEnum.MISC, 30.00);
         }
 
-        // Method to get the price of a specific service based on user inputs
-        public static double GetServicePrice(string serviceName) {
-            ServiceEnum s = Service.getServiceFromString(serviceName);
-            return serviceCost.GetValueOrDefault(s);
+        public double GetServicePrice(ServiceEnum serviceIn) {
+            return this.serviceCost.GetValueOrDefault(serviceIn);
+        }
+
+        public Dictionary<ServiceEnum, Double> getAllServices() {
+            return this.serviceCost;
         }
 
         internal static ServiceEnum getServiceFromString(String serviceNameIn) {

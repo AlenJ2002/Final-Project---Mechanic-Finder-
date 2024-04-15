@@ -1,68 +1,14 @@
 ﻿namespace FinalAssignment.Classes {
     internal class Customer {
-        internal Int32 customerId {
-            get {
-                return this.customerId;
-            } set {
-                this.customerId = value;
-            }
-        }
+        internal Int32 customerId { get; set; }
+        internal String customerFirstName { get; set; }
+        internal String customerLastName { get; set; }
+        internal String customerEmail { get; set; }
+        internal String customerPhone { get; set; }
+        internal String customerAddress { get; set; }
+        internal Vehicle customerVehicle { get; set; }
+        internal List<ServiceEnum>? serviceHistory { get; set; }
 
-        internal String customerFirstName {
-            get {
-                return this.customerFirstName;
-            } set {
-                this.customerFirstName = value;
-            }
-        }
-        internal String customerLastName {
-            get {
-                return this.customerLastName;
-            } set {
-                this.customerLastName = value;
-            }
-        }
-        internal String customerEmail {
-            get {
-                return this.customerEmail;
-            } set {
-                this.customerEmail = value;
-            }
-        }
-        internal String customerPhone {
-            get {
-                return this.customerPhone;
-            } set {
-                this.customerPhone = value;
-            }
-        }
-        internal String customerAddress {
-            get {
-                return this.customerAddress;
-            } set {
-                this.customerAddress = value;
-            }
-        }
-
-        internal Vehicle customerVehicle {
-            get {
-                return this.customerVehicle;
-            } set {
-                this.customerVehicle = value;
-            }
-        }
-
-        internal List<ServiceEnum> serviceHistory {
-            get {
-                if (this.serviceHistory.Count == 0) {
-                    return new List<ServiceEnum>();
-                } else {
-                    return this.serviceHistory;
-                }
-            } set {
-                this.serviceHistory = value;
-            }
-        }
         internal Customer(Int32 customerIdIn,
             String customerFirstNameIn,
             String customerLastNameIn,
@@ -81,7 +27,7 @@
             List<ServiceEnum> history = new List<ServiceEnum>();
             foreach (String s in customerServiceHistoryIn.Split(DatabaseCommunicator.DATABASE_LIST_DELIMITER)) {
                 ServiceEnum theService = Service.getServiceFromString(s);
-                serviceHistory.Add(theService);
+                history.Add(theService);
             }
             this.serviceHistory = history;
         }
@@ -92,20 +38,15 @@
             String customerPhoneIn,
             String customerAddressIn,
             String customerVehicleIn,
-            String customerServiceHistoryIn) {
-            this.customerId = new Random().Next(1000, 9999);
-            this.customerFirstName = customerFirstNameIn;
-            this.customerLastName = customerLastNameIn;
-            this.customerEmail = customerEmailIn;
-            this.customerPhone = customerPhoneIn;
-            this.customerAddress = customerAddressIn;
-            this.customerVehicle = Vehicle.getVehicleFromDatabaseString(customerVehicleIn);
-            List<ServiceEnum> history = new List<ServiceEnum>();
-            foreach (String s in customerServiceHistoryIn.Split(DatabaseCommunicator.DATABASE_LIST_DELIMITER)) {
-                ServiceEnum theService = Service.getServiceFromString(s);
-                serviceHistory.Add(theService);
-            }
-            this.serviceHistory = history;
+            String customerServiceHistoryIn) : this(
+                new Random().Next(1000, 9999),
+                customerFirstNameIn,
+                customerLastNameIn,
+                customerEmailIn,
+                customerPhoneIn,
+                customerAddressIn,
+                customerVehicleIn,
+                customerServiceHistoryIn) {
         }
     }
 }

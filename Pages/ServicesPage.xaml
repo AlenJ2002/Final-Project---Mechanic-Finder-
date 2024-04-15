@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAssignment.Pages.ServicesPage"
+             Title="ServicesPage">
+
+    <HorizontalStackLayout Spacing="13"
+                         Padding="10"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+        <VerticalStackLayout WidthRequest="250">
+            <Label FontSize="24" FontAttributes="Bold"  HorizontalTextAlignment="Center" Text="Maintenance"/>
+            <Editor FontSize="16" HeightRequest="200" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Everyday vehicle maintenance and tune-ups for a reasonable price." IsEnabled="False"/>
+            <Button Text="Book Now" Clicked="onMaintenanceButtonClicked"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout WidthRequest="250">
+            <Label FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Diagnostics"/>
+            <Editor FontSize="16" HeightRequest="200" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Something wrong with your vehicle? We can help." IsEnabled="False"/>
+            <Button Text="Book Now" Clicked="onDiagnosticsButtonClicked"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout WidthRequest="250">
+            <Label FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Repair"/>
+            <Editor FontSize="16" HeightRequest="200" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Windshield replacements, dent repair and more." IsEnabled="False"/>
+            <Button Text="Book Now" Clicked="onRepairButtonClicked"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout WidthRequest="250">
+            <Label FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Not Sure?"/>
+            <Editor FontSize="16" HeightRequest="200" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Our professional technicians know their stuff. Contact us for a free consultation." IsEnabled="False"/>
+            <Button Text="Book Now" Clicked="onContactButtonClicked"/>
+        </VerticalStackLayout>
+    </HorizontalStackLayout>
+</ContentPage>

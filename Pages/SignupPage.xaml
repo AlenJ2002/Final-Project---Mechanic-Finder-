@@ -3,56 +3,72 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAssignment.Pages.SignupPage"
              Title="SignupPage">
-    
-    <VerticalStackLayout Spacing="13"
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="13"
                          Padding="30"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
 
-        <Label Text="SIGNUP"
+            <Label Text="SIGNUP"
                FontSize="32"
                HorizontalTextAlignment="Center"
                FontAttributes="Bold"/>
 
-        <Label Text="FIRST NAME."
+            <Label Text="FIRST NAME."
                FontSize="18"/>
-        <Entry x:Name="FirstNameEntry" 
+            <Entry x:Name="FirstNameEntry" 
                Placeholder="Enter here"
                WidthRequest="400"/>
 
-        <Label Text="LAST NAME."
+            <Label Text="LAST NAME."
                FontSize="18"/>
-        <Entry x:Name="LastNameEntry"
+            <Entry x:Name="LastNameEntry"
                Placeholder="Enter here"
                WidthRequest="400"/>
 
-        <Label Text="USERNAME."
+            <Label Text="ADDRESS."
                FontSize="16"/>
-        <Entry x:Name="usernameEntry"
+            <Entry x:Name="addressEntry"
                Placeholder="Enter here"
                WidthRequest="400"/>
 
-        <Label Text="PASSWORD."
+            <Label Text="EMAIL."
                FontSize="16"/>
-        <Entry x:Name="passwordEntry"
+            <Entry x:Name="emailEntry"
                Placeholder="Enter here"
                WidthRequest="400"/>
 
-        <Label Text="EMAIL."
+            <Label Text="PHONE NUMBER."
                FontSize="16"/>
-        <Entry x:Name="emailEntry"
-               Placeholder="Enter here"
-               WidthRequest="400"/>
-
-        <Label Text="PHONE NUMBER."
-               FontSize="16"/>
-        <Entry x:Name="phoneNumberEntry"
+            <Entry x:Name="phoneNumberEntry"
+                   Keyboard="Telephone"
                Placeholder="123-456-7890"
                WidthRequest="400"/>
 
-        <Button Text="CONTINUE"
+            <Label Text="VEHICLE MAKE."
+   FontSize="16"/>
+            <Entry x:Name="vehicleMakeEntry"
+   Placeholder="Kar"
+   WidthRequest="400"/>
+
+            <Label Text="VEHICLE MODEL."
+FontSize="16"/>
+            <Entry x:Name="vehicleModelEntry"
+Placeholder="Modle"
+WidthRequest="400"/>
+
+            <Label Text="VEHICLE YEAR."
+FontSize="16"/>
+            <Entry x:Name="vehicleYearEntry"
+                   Keyboard="Numeric"
+Placeholder="2000"
+WidthRequest="400"/>
+
+            <Button Text="CONTINUE"
                 Clicked="SignupContinue"
                 FontSize="18"
                 WidthRequest="400"/>
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

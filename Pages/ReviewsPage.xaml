@@ -4,49 +4,26 @@
              x:Class="FinalAssignment.Pages.ReviewsPage"
              Title="ReviewsPage">
 
-    <StackLayout>
-        <Label FontSize="32" 
-               HorizontalTextAlignment="Center" 
-               Text="REVIEWS"
-               TextColor="White"/>
+    <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*">
+        <Label x:Name="averageRatingLabel" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16" Text="Average rating: "/>
+        <VerticalStackLayout Grid.Row="1" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="2" Spacing="25">
+            <Label Text="Name:"/>
+            <Entry x:Name="ReviewerNameEntry"/>
 
-        <Label x:Name="AverageRatingLabel" Text="Average Rating"/>
+            <Label x:Name="ratingLabel" Text="Rating:"/>
+            <Slider x:Name="ratingSlider" WidthRequest="200" Minimum="1" Maximum="5" ValueChanged="onRatingSliderChanged"/>
 
-        <Button Text="HOME"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
+            <Label Text="Comment:"/>
+            <Entry x:Name="CommentsEntry"/>
 
-        <Button Text="SERVICES"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
+            <Button Text="Submit Review" Clicked="onSubmitButtonClicked"/>
+        </VerticalStackLayout>
 
-        <Button Text="Bookings"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Button Text="PROFILE"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Entry x:Name="ReviewerNameEntry"/>
-        <Entry x:Name="CommentsEntry"/>
-        <Label x:Name="SelectedMechanicShopLabel"/>
-        <Picker x:Name="RatingPicker"/>
-        
-
-    </StackLayout>
-
-    
+        <ScrollView Grid.Row="0" Grid.Column="4" Grid.RowSpan="5" Grid.ColumnSpan="5">
+            <VerticalStackLayout x:Name="reviewList" VerticalOptions="Center" HorizontalOptions="Center">
+                <!-- Add reviews here -->
+                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Reviews will appear here."/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

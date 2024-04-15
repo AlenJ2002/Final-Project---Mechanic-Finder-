@@ -9,9 +9,9 @@ namespace FinalAssignment.Pages {
             reviewManager = new ReviewManager();
         }
 
-        private void DisplayMechanicShopDetails(string mechanicShopName) {
+        private void DisplayMechanicShopDetails() {
             // Display mechanic shop details and reviews
-            List<Review> shopReviews = reviewManager.GetReviewsForMechanicShop(mechanicShopName);
+            List<Review> shopReviews = reviewManager.getReviews();
 
             // Clear existing reviews
             this.ClearLogicalChildren();
@@ -24,28 +24,33 @@ namespace FinalAssignment.Pages {
             }
 
             // Display average rating
-            double averageRating = reviewManager.GetAverageRatingForMechanicShop(mechanicShopName);
-            AverageRatingLabel.Text = $"Average Rating: {averageRating}";
+            double averageRating = reviewManager.GetAverageRatingForMechanicShop();
+            averageRatingLabel.Text = $"Average Rating: {averageRating}";
         }
 
         private void SubmitReviewButton_Clicked(object sender, EventArgs e) {
             // Get user inputs
             string reviewerName = ReviewerNameEntry.Text;
-            int rating = Convert.ToInt32(RatingPicker.SelectedItem);
+            int rating = Convert.ToInt32(Math.Round(ratingSlider.Value));
             string comments = CommentsEntry.Text;
-            string mechanicShopName = SelectedMechanicShopLabel.Text;
 
             // Add review
-            Review review = new Review(reviewerName, rating, comments, mechanicShopName);
+            Review review = new Review(reviewerName, rating, comments);
             reviewManager.AddReview(review);
-
-            // Refresh UI
-            DisplayMechanicShopDetails(mechanicShopName);
 
             // Clear input fields
             ReviewerNameEntry.Text = "";
-            RatingPicker.SelectedIndex = -1;
             CommentsEntry.Text = "";
+        }
+
+        public void onRatingSliderChanged(object sender, EventArgs e) {
+            this.ratingLabel.Text = "Rating: " + Math.Round(ratingSlider.Value).ToString();
+        }
+
+        public async void onSubmitButtonClicked(object sender, EventArgs e) {
+            // TODO: Add review to DB
+            await this.DisplayAlert("Success", "Thanks for your review!", "noice");
+            await Navigation.PushAsync(new HomePage());
         }
 
         // Other event handlers for displaying mechanic shop list, selecting a mechanic shop, etc.

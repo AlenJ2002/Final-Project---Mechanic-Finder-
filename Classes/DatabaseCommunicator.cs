@@ -33,7 +33,7 @@ namespace FinalAssignment.Classes {
             return output;
         }
 
-        private void addToCustomerDatabase(Customer customerIn) {
+        internal void addToCustomerDatabase(Customer customerIn) {
             try {
                 MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
                 connection.Open();
@@ -62,6 +62,16 @@ namespace FinalAssignment.Classes {
                 connection.Close();
             } catch (Exception e) {
             }
+        }
+
+        internal Customer? getCustomerFromDatabase(String email) {
+            foreach (Customer c in this.customerList) {
+                if (c.customerEmail == email) {
+                    return c;
+                }
+            }
+
+            return null;
         }
 
         private static MySqlConnectionStringBuilder getSqlConnectionBuilder() {

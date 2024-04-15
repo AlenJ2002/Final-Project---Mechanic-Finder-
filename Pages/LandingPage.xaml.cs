@@ -1,7 +1,9 @@
-﻿namespace FinalAssignment.Pages {
-    public partial class MainPage : ContentPage {
+﻿using FinalAssignment.Classes;
 
-        public MainPage() {
+namespace FinalAssignment.Pages {
+    public partial class LandingPage : ContentPage {
+
+        public LandingPage() {
             InitializeComponent();
         }
 
@@ -14,6 +16,7 @@
         }
 
         public async void ContinueWithoutLogin(object sender, EventArgs e) {
+            MauiProgram.setProfile(null);
             await Navigation.PushAsync(new HomePage());
         }
     }
