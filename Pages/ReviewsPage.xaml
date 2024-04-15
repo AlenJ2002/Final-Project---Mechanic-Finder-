@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAssignment.Pages.ReviewsPage"
+             Title="ReviewsPage">
+
+    <StackLayout>
+        <Label FontSize="32" 
+               HorizontalTextAlignment="Center" 
+               Text="REVIEWS"
+               TextColor="White"/>
+
+        <Label x:Name="AverageRatingLabel" Text="Average Rating"/>
+
+        <Button Text="HOME"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="SERVICES"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="Bookings"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="PROFILE"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Entry x:Name="ReviewerNameEntry"/>
+        <Entry x:Name="CommentsEntry"/>
+        <Label x:Name="SelectedMechanicShopLabel"/>
+        <Picker x:Name="RatingPicker"/>
+        
+
+    </StackLayout>
+
+    
+</ContentPage>

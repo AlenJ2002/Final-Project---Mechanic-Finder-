@@ -1,13 +1,29 @@
-<!-- AppShell.xaml -->
-<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:pages="clr-namespace:MechanicFinder"
-       x:Class="MechanicFinder.AppShell">
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FinalAssignment.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FinalAssignment.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="FinalAssignment">
 
-    <TabBar>
-        <Tab Title="Dashboard" Icon="dashboard.png">
-            <ShellContent ContentTemplate="{DataTemplate pages:ServiceProviderDashboardPage}" />
-        </Tab>
-        <!-- Add additional Tabs here for different pages -->
-    </TabBar>
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+	<ShellContent
+        Title="Signup"
+        ContentTemplate="{DataTemplate local:SignupPage}"
+        Route="SignupPage" />
+	<ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+	<ShellContent
+        Title="HomePage"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
+
+
 </Shell>
