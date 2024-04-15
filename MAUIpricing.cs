@@ -29,6 +29,7 @@ namespace MechanicFinder
                 userInputs["FilterType"] = FilterTypeEntry.Text;
                 userInputs["VehicleMake"] = VehicleMakeEntry.Text; // Include vehicle make input
                 userInputs["VehicleModel"] = VehicleModelEntry.Text; // Include vehicle model input
+                userInputs["VehicleModelYear"] = VehicleModelYear.Text; // Include vehicle year input
 
                 try
                 {
