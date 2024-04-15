@@ -4,12 +4,26 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FinalAssignment"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="FinalAssignment">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+	<ShellContent
+        Title="Signup"
+        ContentTemplate="{DataTemplate local:SignupPage}"
+        Route="SignupPage" />
+	<ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+	<ShellContent
+        Title="HomePage"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />
+
 
 </Shell>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YumEMN1nRQTiQLqcX/Wd8UtCNqzE8h9AdHwcnN2ybmxTnnZxlQKolyPcmXbQzof/jQecULSZPpZcKFGERpUGdA==",
+  "dgSpecHash": "Yu+2cJZh+cE9B5SJM3EnKSUPRMhsvQRGwhOy/UbFtEcST3VT+zLzAy6MUU4Ob0/i9ZKTZ6BYkK0JkqteefIx0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
+  "projectFilePath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bogda\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Bogda\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

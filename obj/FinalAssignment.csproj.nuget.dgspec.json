@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj": {}
+    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj": {
+    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj",
         "projectName": "FinalAssignment",
-        "projectPath": "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\FinalAssignment.csproj",
+        "projectPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj",
         "packagesPath": "C:\\Users\\Bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bogda\\CPRG-211-F\\FinalAssignment\\FinalAssignment\\obj\\",
+        "outputPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

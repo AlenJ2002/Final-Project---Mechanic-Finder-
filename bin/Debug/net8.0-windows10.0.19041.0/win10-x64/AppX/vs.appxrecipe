@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.finalassignment</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>2515C66C459157EEC4EFD40EAAC95246C77565050271A8627CF8A7928AB6D9B8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.finalassignment_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.finalassignment_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-15T00:48:04.649</Modified>
+      <Modified>2024-04-15T02:51:03.159</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-15T00:48:04.540</Modified>
+      <Modified>2024-04-15T02:51:02.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.runtimeconfig.json">
       <PackagePath>FinalAssignment.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-12T18:00:07.237</Modified>
+      <Modified>2024-04-15T02:51:02.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.dll">
       <PackagePath>FinalAssignment.dll</PackagePath>
-      <Modified>2024-04-15T00:48:04.223</Modified>
+      <Modified>2024-04-15T02:51:01.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FinalAssignment.exe</PackagePath>
-      <Modified>2024-04-15T00:48:04.229</Modified>
+      <Modified>2024-04-15T02:51:01.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-04-12T17:59:30.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:45.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:45.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:45.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:45.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:45.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-04-12T17:59:30.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-04-12T17:59:30.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-04-12T17:59:46.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:47.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:47.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:47.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:47.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-04-12T17:59:46.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-04-12T17:59:46.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-04-12T17:59:46.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-04-12T17:59:46.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-04-12T17:59:46.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-04-12T17:59:46.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-04-12T17:59:46.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-04-12T17:59:46.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-04-12T17:59:46.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-04-12T17:59:46.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-04-12T17:59:46.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-04-12T17:59:46.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-04-12T17:59:46.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-04-12T17:59:46.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-04-12T17:59:46.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.802</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.817</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-04-12T17:59:46.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-04-12T17:59:46.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-04-12T17:59:46.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-04-12T17:59:46.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-04-12T17:59:46.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\CPRG-211-F\FinalAssignment\FinalAssignment\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.deps.json">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.deps.json">
       <PackagePath>FinalAssignment.deps.json</PackagePath>
-      <Modified>2024-04-14T03:28:22.470</Modified>
+      <Modified>2024-04-15T02:51:02.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
