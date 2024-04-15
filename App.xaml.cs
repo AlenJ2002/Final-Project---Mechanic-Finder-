@@ -1,4 +1,4 @@
-﻿namespace FinalAssignment
+namespace FinalAssignment
 {
     public partial class App : Application
     {

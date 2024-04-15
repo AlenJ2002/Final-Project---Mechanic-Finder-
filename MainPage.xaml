@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MechanicFinder.ServiceProviderDashboardPage"
+             Title="Service Provider Dashboard">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="20">
+
+            <!-- Reservations Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Reservations" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- This is a placeholder that would be replaced by an actual list control like CollectionView -->
+                    <StackLayout>
+                        <Label Text="John Doe - Oil Change - 04/15/2024 10:00 AM"/>
+                        <Label Text="Jane Smith - Tire Replacement - 04/16/2024 02:00 PM"/>
+                        <!-- ... other placeholders -->
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <!-- Payments Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Payments" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for Payment Processing UI -->
+                    <Label Text="Last Payment: $100.00 received on 04/14/2024"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+            <!-- Quotes Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Quotes" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for the list of quotes waiting for a reply -->
+                    <Label Text="Quote Request: Brake Pad Replacement - Waiting for reply"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+            <!-- Feedback Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Feedback" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for Feedback UI -->
+                    <Label Text="Customer Feedback: Excellent service! - 5 stars"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
