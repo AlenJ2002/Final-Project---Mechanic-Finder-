@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAssignment.Pages.HomePage"
+             Title="HomePage">
+
+    <Grid
+        ColumnDefinitions="*,*,*,*,*"
+        RowDefinitions="*,*,*,*,*">
+
+
+        <Label Grid.Row="0"
+               Grid.Column="2" 
+               FontSize="32" 
+               HorizontalTextAlignment="Center" 
+               Text="MECHANIC FINDER"
+               TextColor="White"/>
+
+        <Button Text="SERVICES"
+                Grid.Row="0"
+                Grid.Column="0"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="BOOKINGS"
+                Grid.Row="0"
+                Grid.Column="1"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="LOCATION"
+                Grid.Row="0"
+                Grid.Column="2"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="REVIEWS"
+                Clicked="ReviewsClicked" 
+                Grid.Row="0"
+                Grid.Column="3"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Button Text="PROFILE"
+                Grid.Row="0"
+                Grid.Column="4"
+                FontSize="16"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                HeightRequest="10"
+                WidthRequest="200"/>
+
+        <Label Text=""
+               Grid.Row="1"
+               Grid.Column="2"
+               
+               FontSize="15"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+
+
+    </Grid>
+</ContentPage>
