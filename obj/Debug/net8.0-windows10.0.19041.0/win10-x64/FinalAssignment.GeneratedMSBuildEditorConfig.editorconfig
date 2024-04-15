@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalAssignment
+build_property.ProjectDir = C:\Users\Bogda\Documents\FinalProject-CPRG211-F\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = NewPage1.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/ReviewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.ReviewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ReviewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ReviewsPage.xaml
+
+[C:/Users/Bogda/Documents/FinalProject-CPRG211-F/SignupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalAssignment.SignupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SignupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SignupPage.xaml
