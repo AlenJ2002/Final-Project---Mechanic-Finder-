@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalAssignment.Pages.BookingPage"
+             Title="BookingPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20"
+                         Padding="30"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+            <Label WidthRequest="400" Text="Service Type:"/>
+            <Picker WidthRequest="400" x:Name="serviceTypePicker" SelectedIndexChanged="onServicePickerChanged"/>
+
+            <Label WidthRequest="400" Text="Date:"/>
+            <DatePicker WidthRequest="400" x:Name="serviceDatePicker"/>
+
+            <Label WidthRequest="400" Text="Time:"/>
+            <TimePicker WidthRequest="400" x:Name="serviceTimePicker"/>
+
+            <Label WidthRequest="400" Text="Estimated Cost:"/>
+            <Entry WidthRequest="400" BackgroundColor="MediumPurple" x:Name="serviceCostLabel" Text="$0.00" IsReadOnly="True"/>
+
+            <Button Margin="20" Text="Create Booking" Clicked="onSubmitButtonClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
