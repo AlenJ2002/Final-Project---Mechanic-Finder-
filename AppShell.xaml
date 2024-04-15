@@ -1,0 +1,13 @@
+<!-- AppShell.xaml -->
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:MechanicFinder"
+       x:Class="MechanicFinder.AppShell">
+
+    <TabBar>
+        <Tab Title="Dashboard" Icon="dashboard.png">
+            <ShellContent ContentTemplate="{DataTemplate pages:ServiceProviderDashboardPage}" />
+        </Tab>
+        <!-- Add additional Tabs here for different pages -->
+    </TabBar>
+</Shell>
