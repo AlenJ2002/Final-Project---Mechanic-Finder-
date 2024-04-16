@@ -7,30 +7,34 @@
             <Border.Shadow>
                 <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
             </Border.Shadow>
-            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
-                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Reviews"/>
-                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="We'd love to hear you out!"/>
-                <Label HeightRequest="25"/>
-                <Label TextColor="White" FontSize="18" Text="Name:"/>
-                <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
-                    <Entry BackgroundColor="White" TextColor="{StaticResource Primary}" Placeholder="Kim Possible" x:Name="ReviewerNameEntry"/>
-                </Frame>
-                <Label TextColor="White" FontSize="18" x:Name="ratingLabel" Text="Rating: 1"/>
-                <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
-                    <Slider Margin="10"
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Reviews"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" Text="We'd love to hear you out!"/>
+                    <Label HeightRequest="25"/>
+                    <Label TextColor="White" FontSize="18" Text="Name:"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
+                        <Entry BackgroundColor="White" TextColor="{StaticResource Primary}" Placeholder="Kim Possible" x:Name="ReviewerNameEntry"/>
+                    </Frame>
+                    <Label TextColor="White" FontSize="18" x:Name="ratingLabel" Text="Rating: 1"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
+                        <Slider Margin="10"
                             BackgroundColor="LightGrey"
                             ThumbColor="{StaticResource Primary}"
                             MinimumTrackColor="LightGrey"
                             MaximumTrackColor="LightGrey" x:Name="ratingSlider" WidthRequest="200" Minimum="1" Maximum="5" ValueChanged="onRatingSliderChanged"/>
-                </Frame>
-                <Label TextColor="White" FontSize="18" Text="Comment:"/>
-                <Frame Padding="0" WidthRequest="300" HeightRequest="100" CornerRadius="8" BackgroundColor="White">
-                    <Editor BackgroundColor="White"
+                    </Frame>
+                    <Label TextColor="White" FontSize="18" Text="Comment:"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="100" CornerRadius="8" BackgroundColor="White">
+                        <Editor BackgroundColor="White"
                             TextColor="{StaticResource Primary}" Placeholder="Your review" x:Name="CommentsEntry"/>
-                </Frame>
-                <Label HeightRequest="25"/>
-                <Button WidthRequest="300" Text="Submit Review" BackgroundColor="White" TextColor="{StaticResource Primary}" Clicked="onSubmitButtonClicked"/>
-            </VerticalStackLayout>
+                    </Frame>
+                    <Label HeightRequest="25"/>
+                    <Button WidthRequest="300" Text="Submit Review" BackgroundColor="White" TextColor="{StaticResource Primary}" Clicked="onSubmitButtonClicked"/>
+                    <Label HeightRequest="50"/>
+                </VerticalStackLayout>
+            </ScrollView>
         </Border>
         <Grid Grid.Row="0" Grid.Column="1" ColumnDefinitions="*" RowDefinitions="*, 9*">
             <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">

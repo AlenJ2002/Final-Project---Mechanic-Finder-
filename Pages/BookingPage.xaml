@@ -14,6 +14,7 @@
         </Border>
         <ScrollView Grid.Column="1" Grid.Row="0">
             <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label HeightRequest="50"/>
                 <Label WidthRequest="400" FontSize="18" Text="Service Type:"/>
                 <Picker WidthRequest="400" x:Name="serviceTypePicker" SelectedIndexChanged="onServicePickerChanged"/>
                 <Label WidthRequest="400" FontSize="18" Text="Date:"/>
@@ -24,6 +25,7 @@
                 <Entry WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceCostLabel" Text="$0.00" IsReadOnly="True"/>
                 <Label HeightRequest="50"/>
                 <Button WidthRequest="300" Text="Create Booking" Clicked="onSubmitButtonClicked"/>
+                <Label HeightRequest="50"/>
             </VerticalStackLayout>
         </ScrollView>
     </Grid>

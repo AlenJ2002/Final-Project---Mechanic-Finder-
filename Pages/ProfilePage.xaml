@@ -9,16 +9,21 @@
             <Border.Shadow>
                 <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
             </Border.Shadow>
-            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
-                <!-- https://this-person-does-not-exist.com/en/download-page?image=gen7407870f3550e9267ca184ca51f3d276 -->
-                <Frame Margin="20" HeightRequest="250" WidthRequest="250" CornerRadius="125">
-                    <Image Margin="-125" HeightRequest="250" WidthRequest="250" VerticalOptions="Center" HorizontalOptions="Center" Source="avatar.jpeg" Aspect="AspectFill"/>
-                </Frame>
-                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" x:Name="customerName"/>
-            </VerticalStackLayout>
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label HeightRequest="50"/>
+                    <!-- https://this-person-does-not-exist.com/en/download-page?image=gen7407870f3550e9267ca184ca51f3d276 -->
+                    <Frame Margin="20" HeightRequest="250" WidthRequest="250" CornerRadius="125">
+                        <Image Margin="-125" HeightRequest="250" WidthRequest="250" VerticalOptions="Center" HorizontalOptions="Center" Source="avatar.jpeg" Aspect="AspectFill"/>
+                    </Frame>
+                    <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" x:Name="customerName"/>
+                    <Label HeightRequest="50"/>
+                </VerticalStackLayout>
+            </ScrollView>
         </Border>
         <ScrollView Grid.Column="1" Grid.Row="0">
             <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label HeightRequest="50"/>
                 <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Email:"/>
                 <Label WidthRequest="300" FontSize="18" x:Name="customerEmail"/>
 
@@ -30,6 +35,7 @@
 
                 <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Your vehicle:"/>
                 <Label WidthRequest="300" FontSize="18" x:Name="customerVehicle"/>
+                <Label HeightRequest="50"/>
             </VerticalStackLayout>
         </ScrollView>
     </Grid>

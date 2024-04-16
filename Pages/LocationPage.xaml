@@ -7,18 +7,22 @@
             <Border.Shadow>
                 <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
             </Border.Shadow>
-            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
-                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="About Us"/>
-                <Label HeightRequest="50"/>
-                <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Shop Location:"/>
-                <Label TextColor="White" FontSize="14" Text="123 Bob Street"/>
-                <Label TextColor="White" FontSize="14" Text="Coquitlam, BC"/>
-                <Label TextColor="White" FontSize="14" Text="(604)-469-2020"/>
-                <Label HeightRequest="50"/>
-                <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Hours of Operations:"/>
-                <Label TextColor="White" FontSize="14" Text="Monday - Friday: 08:00 - 19:00"/>
-                <Label TextColor="White" FontSize="14" Text="Saturday - Sunday: Closed"/>
-            </VerticalStackLayout>
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="About Us"/>
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Shop Location:"/>
+                    <Label TextColor="White" FontSize="14" Text="123 Bob Street"/>
+                    <Label TextColor="White" FontSize="14" Text="Coquitlam, BC"/>
+                    <Label TextColor="White" FontSize="14" Text="(604)-469-2020"/>
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Hours of Operations:"/>
+                    <Label TextColor="White" FontSize="14" Text="Monday - Friday: 08:00 - 19:00"/>
+                    <Label TextColor="White" FontSize="14" Text="Saturday - Sunday: Closed"/>
+                    <Label HeightRequest="50"/>
+                </VerticalStackLayout>
+            </ScrollView>
         </Border>
     </Grid>
 </ContentPage>
