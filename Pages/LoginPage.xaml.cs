@@ -7,22 +7,9 @@ namespace FinalAssignment.Pages {
             InitializeComponent();
         }
 
-        private void OnUsernameTextClicked(object sender, EventArgs e) {
-            string email = emailEntry.Text; // Used to access the text
-
-            // Validation 
-            if (string.IsNullOrEmpty(email)) {
-                // Alert the user 
-                DisplayAlert("Email cannot be empty. Please try again");
-
-            }
-        }
-
-        private void DisplayAlert(string v) {
-            throw new NotImplementedException();
-        }
-
         private async void ContinueClicked(object sender, EventArgs e) {
+            if (new Utils().validatePage(this) == false) return;
+
             // TODO: Add back in when database is created
             /*
             Customer? c = MauiProgram.getDatabaseCommunicator().getCustomerFromDatabase(emailEntry.Text);

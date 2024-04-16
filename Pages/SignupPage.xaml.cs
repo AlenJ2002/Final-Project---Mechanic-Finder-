@@ -9,6 +9,8 @@ namespace FinalAssignment.Pages {
         }
 
         private async void SignupContinue(object sender, EventArgs e) {
+            if (new Utils().validatePage(this) == false) return;
+
             String customerFirstName = this.FirstNameEntry.Text;
             String customerLastName = this.LastNameEntry.Text;
             String customerEmail = this.emailEntry.Text;

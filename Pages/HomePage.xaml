@@ -1,69 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalAssignment.Pages.HomePage"
-             Title="HomePage">
-
-    <Grid
-        ColumnDefinitions="*,*,*,*,*"
-        RowDefinitions="*,*,*,*,*">
-
-
-        <Label Grid.Row="0"
-               Grid.Column="2" 
-               FontSize="32" 
-               HorizontalTextAlignment="Center" 
-               Text="MECHANIC FINDER"
-               TextColor="White"/>
-
-        <Button Text="SERVICES"
-                Clicked="onServicesButtonClicked" 
-                Grid.Row="1"
-                Grid.Column="1"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Button Text="BOOKINGS"
-                Clicked="onBookingsButtonClicked" 
-                Grid.Row="1"
-                Grid.Column="2"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Button Text="LOCATION"
-                Clicked="onLocationButtonClicked" 
-                Grid.Row="1"
-                Grid.Column="3"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Button Text="REVIEWS"
-                Clicked="onReviewsButtonClicked" 
-                Grid.Row="2"
-                Grid.Column="1"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
-
-        <Button Text="PROFILE"
-                Clicked="onProfileButtonClicked" 
-                Grid.Row="2"
-                Grid.Column="2"
-                FontSize="16"
-                BackgroundColor="MediumPurple"
-                TextColor="White"
-                HeightRequest="10"
-                WidthRequest="200"/>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.HomePage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Welcome"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="What would you like to do today?"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Button Text="View Available Services" Clicked="onServicesButtonClicked" WidthRequest="300"/>
+                <Button Text="Make a Booking" Clicked="onBookingsButtonClicked" WidthRequest="300"/>
+                <Button Text="See Reviews" Clicked="onReviewsButtonClicked" WidthRequest="300"/>
+                <Button Text="My Profile" Clicked="onProfileButtonClicked" WidthRequest="300"/>
+                <Button Text="Dashboard" Clicked="onDashboardButtonClicked" WidthRequest="300"/>
+                <Button Text="About Us" Clicked="onLocationButtonClicked" WidthRequest="300"/>
+            </VerticalStackLayout>
+        </ScrollView>
     </Grid>
 </ContentPage>

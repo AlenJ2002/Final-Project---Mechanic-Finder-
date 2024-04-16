@@ -2,28 +2,35 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalAssignment.Pages.ProfilePage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <!-- https://this-person-does-not-exist.com/en/download-page?image=gen7407870f3550e9267ca184ca51f3d276 -->
+                <Frame Margin="20" HeightRequest="250" WidthRequest="250" CornerRadius="125">
+                    <Image Margin="-125" HeightRequest="250" WidthRequest="250" VerticalOptions="Center" HorizontalOptions="Center" Source="avatar.jpeg" Aspect="AspectFill"/>
+                </Frame>
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" x:Name="customerName"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Email:"/>
+                <Label WidthRequest="300" FontSize="18" x:Name="customerEmail"/>
 
-    <Grid ColumnDefinitions="*,*" RowDefinitions="*">
-        <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center">
-            <Label HorizontalTextAlignment="Center" FontSize="32" FontAttributes="Bold" Text="Welcome"/>
-            <Button Margin="20" HeightRequest="250" WidthRequest="250" CornerRadius="125" IsEnabled="False"/>
-            <Label HorizontalTextAlignment="Center" FontSize="32" x:Name="customerName"/>
-        </VerticalStackLayout>
-        <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="20"
-                      Padding="30"
-                      VerticalOptions="Center"
-                      HorizontalOptions="Center">
-            <Label Text="Email:"/>
-            <Label x:Name="customerEmail"/>
+                <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Phone:"/>
+                <Label WidthRequest="300" FontSize="18" x:Name="customerPhone"/>
 
-            <Label Text="Phone:"/>
-            <Label x:Name="customerPhone"/>
+                <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Address:"/>
+                <Label WidthRequest="300" FontSize="18" x:Name="customerAddress"/>
 
-            <Label Text="Address:"/>
-            <Label x:Name="customerAddress"/>
-
-            <Label Text="Your vehicle:"/>
-            <Label x:Name="customerVehicle"/>
-        </VerticalStackLayout>
+                <Label WidthRequest="300" FontSize="18" FontAttributes="Bold" Text="Your vehicle:"/>
+                <Label WidthRequest="300" FontSize="18" x:Name="customerVehicle"/>
+            </VerticalStackLayout>
+        </ScrollView>
     </Grid>
 </ContentPage>
