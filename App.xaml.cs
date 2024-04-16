@@ -1,4 +1,4 @@
-namespace FinalAssignment
+﻿namespace MechanicFinder
 {
     public partial class App : Application
     {

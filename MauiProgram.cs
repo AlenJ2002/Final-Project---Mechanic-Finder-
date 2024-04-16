@@ -1,8 +1,8 @@
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 
-namespace FinalAssignment
+namespace MechanicFinder
 {
-    public static class MauiProgram 
+    public static class MauiProgram
     {
         public static MauiApp CreateMauiApp()
         {
