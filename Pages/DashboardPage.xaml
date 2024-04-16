@@ -1,22 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.DashboardPage">
-    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
-        <!-- https://wallpaperaccess.com/car-blueprint -->
-        <Image Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
-        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
-            <Border.Shadow>
-                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
-            </Border.Shadow>
-            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
-                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Dashboard"/>
-                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="Secret settings menu?"/>
-            </VerticalStackLayout>
-        </Border>
-        <ScrollView Grid.Column="1" Grid.Row="0">
-            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
-                <Label FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Yer lost yer way bud?"/>
-                <Label FontSize="18" HorizontalTextAlignment="Center" Text="(It's not done yet, come back later.)"/>
-            </VerticalStackLayout>
-        </ScrollView>
-    </Grid>
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="20">
+
+            <!-- Reservations Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Reservations" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- This is a placeholder that would be replaced by an actual list control like CollectionView -->
+                    <StackLayout>
+                        <Label Text="John Doe - Oil Change - 04/15/2024 10:00 AM"/>
+                        <Label Text="Jane Smith - Tire Replacement - 04/16/2024 02:00 PM"/>
+                        <!-- ... other placeholders -->
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <!-- Payments Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Payments" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for Payment Processing UI -->
+                    <Label Text="Last Payment: $100.00 received on 04/14/2024"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+            <!-- Quotes Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Quotes" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for the list of quotes waiting for a reply -->
+                    <Label Text="Quote Request: Brake Pad Replacement - Waiting for reply"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+            <!-- Feedback Section -->
+            <Frame CornerRadius="10" Padding="10" BorderColor="LightGray">
+                <StackLayout>
+                    <Label Text="Feedback" FontAttributes="Bold" FontSize="Large"/>
+                    <!-- Placeholder for Feedback UI -->
+                    <Label Text="Customer Feedback: Excellent service! - 5 stars"/>
+                    <!-- ... other placeholders -->
+                </StackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
