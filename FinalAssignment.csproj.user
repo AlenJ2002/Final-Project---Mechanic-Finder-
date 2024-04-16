@@ -31,6 +31,9 @@
     <None Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </None>
+    <None Update="Pages\DashboardPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
     <None Update="Resources\Styles\Colors.xaml">
       <SubType>Designer</SubType>
     </None>

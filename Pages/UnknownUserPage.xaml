@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalAssignment.Pages.UnknownUserPage"
-             Title="UnknownUserPage">
-
-    <VerticalStackLayout Spacing="20"
-                         Padding="30"
-                         VerticalOptions="Center"
-                         HorizontalOptions="Center">
-
-        <Label Text="You need to be signed in before you can do that."/>
-    </VerticalStackLayout>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.UnknownUserPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Error"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="You need to sign in before you can do that"/>
+            </VerticalStackLayout>
+        </Border>
+    </Grid>
 </ContentPage>

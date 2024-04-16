@@ -20,7 +20,7 @@ namespace FinalAssignment.Pages {
         }
 
         private async void onContactButtonClicked(object sender, EventArgs e) {
-            this.redirect(ServiceEnum.MISC);
+            await Navigation.PushAsync(new LocationPage());
         }
 
         private async void redirect(ServiceEnum serviceIn) {

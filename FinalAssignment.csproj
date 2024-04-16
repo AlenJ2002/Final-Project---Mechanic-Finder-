@@ -57,13 +57,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+	  <None Include="Pages\DashboardPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.20" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.20" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="MySqlConnector" Version="2.3.6" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\DashboardPage.cs">
+	    <DependentUpon>UnknownUserPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\UnknownUserPage.xaml.cs">
 	    <DependentUpon>UnknownUserPage.xaml</DependentUpon>
 	  </Compile>

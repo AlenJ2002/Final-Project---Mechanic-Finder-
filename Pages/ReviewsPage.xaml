@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalAssignment.Pages.ReviewsPage"
-             Title="ReviewsPage">
-
-    <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*">
-        <Label x:Name="averageRatingLabel" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" FontSize="16" Text="Average rating: "/>
-        <VerticalStackLayout Grid.Row="1" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="2" Spacing="25">
-            <Label Text="Name:"/>
-            <Entry x:Name="ReviewerNameEntry"/>
-
-            <Label x:Name="ratingLabel" Text="Rating:"/>
-            <Slider x:Name="ratingSlider" WidthRequest="200" Minimum="1" Maximum="5" ValueChanged="onRatingSliderChanged"/>
-
-            <Label Text="Comment:"/>
-            <Entry x:Name="CommentsEntry"/>
-
-            <Button Text="Submit Review" Clicked="onSubmitButtonClicked"/>
-        </VerticalStackLayout>
-
-        <ScrollView Grid.Row="0" Grid.Column="4" Grid.RowSpan="5" Grid.ColumnSpan="5">
-            <VerticalStackLayout x:Name="reviewList" VerticalOptions="Center" HorizontalOptions="Center">
-                <!-- Add reviews here -->
-                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Reviews will appear here."/>
-            </VerticalStackLayout>
-        </ScrollView>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.ReviewsPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Reviews"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" Text="We'd love to hear you out!"/>
+                    <Label HeightRequest="25"/>
+                    <Label TextColor="White" FontSize="18" Text="Name:"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
+                        <Entry BackgroundColor="White" TextColor="{StaticResource Primary}" Placeholder="Kim Possible" x:Name="ReviewerNameEntry"/>
+                    </Frame>
+                    <Label TextColor="White" FontSize="18" x:Name="ratingLabel" Text="Rating: 1"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="50" CornerRadius="8" BackgroundColor="White">
+                        <Slider Margin="10"
+                            BackgroundColor="LightGrey"
+                            ThumbColor="{StaticResource Primary}"
+                            MinimumTrackColor="LightGrey"
+                            MaximumTrackColor="LightGrey" x:Name="ratingSlider" WidthRequest="200" Minimum="1" Maximum="5" ValueChanged="onRatingSliderChanged"/>
+                    </Frame>
+                    <Label TextColor="White" FontSize="18" Text="Comment:"/>
+                    <Frame Padding="0" WidthRequest="300" HeightRequest="100" CornerRadius="8" BackgroundColor="White">
+                        <Editor BackgroundColor="White"
+                            TextColor="{StaticResource Primary}" Placeholder="Your review" x:Name="CommentsEntry"/>
+                    </Frame>
+                    <Label HeightRequest="25"/>
+                    <Button WidthRequest="300" Text="Submit Review" BackgroundColor="White" TextColor="{StaticResource Primary}" Clicked="onSubmitButtonClicked"/>
+                    <Label HeightRequest="50"/>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Border>
+        <Grid Grid.Row="0" Grid.Column="1" ColumnDefinitions="*" RowDefinitions="*, 9*">
+            <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+                </Border.Shadow>
+                <Label Padding="20" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center" x:Name="averageRatingLabel" FontSize="18" TextColor="White" BackgroundColor="{StaticResource Primary}"/>
+            </Border>
+            <ScrollView Grid.Row="1" Grid.Column="0">
+                <VerticalStackLayout x:Name="reviewList" HorizontalOptions="Center" Spacing="20">
+                    <!-- Reviews -->
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
     </Grid>
 </ContentPage>

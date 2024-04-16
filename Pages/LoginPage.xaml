@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalAssignment.Pages.LoginPage"
-             Title="LoginPage">
-
-    <VerticalStackLayout Spacing="20"
-                         Padding="30"
-                         VerticalOptions="Center"
-                         HorizontalOptions="Center">
-
-        <Label Text="LOGIN"
-               FontSize="32"
-               HorizontalTextAlignment="Center"
-               FontAttributes="Bold"/>
-
-        <Label Text="EMAIL."
-               FontSize="18"/>
-        <Entry x:Name="emailEntry" 
-               Placeholder="Enter here"
-               WidthRequest="400"/>
-
-        <Label Text="PASSWORD."
-               FontSize="18"/>
-
-        <Entry x:Name="passwordEntry"
-               Placeholder="Enter here"
-               WidthRequest="400"/>
-
-        <Button Text="CONTINUE"
-                Clicked="ContinueClicked"
-                FontSize="18"
-                WidthRequest="400"/>
-    </VerticalStackLayout>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.LoginPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Welcome back"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="Please log in to your account"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="10">
+                <Label HeightRequest="50"/>
+                <Label FontSize="18" Text="Email Address:"/>
+                <Entry x:Name="emailEntry" Placeholder="eat@joesburgers.com" WidthRequest="400"/>
+                <Label HeightRequest="50"/>
+                <Label FontSize="18" Text="Password:"/>
+                <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="notpassword123" WidthRequest="400"/>
+                <Label HeightRequest="100"/>
+                <Button Clicked="ContinueClicked" WidthRequest="300" Text="Log In"/>
+                <Label HeightRequest="50"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

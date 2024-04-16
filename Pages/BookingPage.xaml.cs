@@ -19,18 +19,19 @@ namespace FinalAssignment.Pages {
             }
         }
 
-        private async void onSubmitButtonClicked(object sender, EventArgs e) {
-            // TODO: add to db
-            await this.DisplayAlert("Success", "You have created a booking!", "noice");
-            await Navigation.PushAsync(new HomePage());
-        }
-
         private void onServicePickerChanged(object sender, EventArgs e) {
             if (this.serviceTypePicker.SelectedItem != null) {
                 Service s = new Service();
                 ServiceEnum se = Service.getServiceFromString(this.serviceTypePicker.SelectedItem.ToString());
                 this.serviceCostLabel.Text = "$" + s.GetServicePrice(se).ToString("N2");
             }
+        }
+
+        private async void onSubmitButtonClicked(object sender, EventArgs e) {
+            if (new Utils().validatePage(this) == false) return;
+            // TODO: add to db
+            await this.DisplayAlert("Success", "You have created a booking!", "noice");
+            await Navigation.PushAsync(new HomePage());
         }
     }
 }
