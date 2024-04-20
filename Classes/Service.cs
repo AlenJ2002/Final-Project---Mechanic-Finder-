@@ -3,7 +3,8 @@
         MAINTENANCE,
         DIAGNOSTICS,
         REPAIR,
-        MISC
+        MISC,
+        NONE
     }
 
     internal class Service {
@@ -34,6 +35,8 @@
                     return ServiceEnum.DIAGNOSTICS;
                 case "REPAIR":
                     return ServiceEnum.REPAIR;
+                case "NONE":
+                    return ServiceEnum.NONE;
                 default:
                     return ServiceEnum.MISC;
             }
@@ -47,6 +50,8 @@
                     return "DIAGNOSTICS";
                 case ServiceEnum.REPAIR:
                     return "REPAIR";
+                case ServiceEnum.NONE:
+                    return "NONE";
                 default:
                     return "MISC";
             }

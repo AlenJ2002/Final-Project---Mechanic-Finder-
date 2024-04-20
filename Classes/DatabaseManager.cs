@@ -1,35 +1,39 @@
 ﻿using MySqlConnector;
 
 namespace FinalAssignment.Classes {
-    internal class DatabaseCommunicator() {
+    internal class DatabaseManager() {
         private List<Customer> customerList = initializeCustomerDatabase();
         private List<Review> reviews = initializeReviewDatabase();
         internal static readonly String DATABASE_LIST_DELIMITER = "|";
 
+        /* TODO
+         * - Finish reviews
+         */
+
         private static List<Customer> initializeCustomerDatabase() {
             List<Customer> output = new List<Customer>();
 
-            try {
-                MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
-                connection.Open();
-                string sql = "SELECT id, firstname, lastname, email, phone, address, vehicle, servicehistory FROM customers";
-                MySqlCommand command = new MySqlCommand(sql, connection);
-                MySqlDataReader reader = command.ExecuteReader();
-                while (reader.Read()) {
-                    Int32 customerId = reader.GetInt32(0);
-                    String customerFirstName = reader.GetString(1);
-                    String customerLastName = reader.GetString(2);
-                    String customerEmail = reader.GetString(3);
-                    String customerPhone = reader.GetString(4);
-                    String customerAddress = reader.GetString(5);
-                    String customerVehicle = reader.GetString(6);
-                    String customerServiceHistory = reader.GetString(7);
-                    Customer c = new Customer(customerId, customerFirstName, customerLastName, customerEmail, customerPhone, customerAddress, customerVehicle, customerServiceHistory);
-                    output.Add(c);
-                }
-                connection.Close();
-            } catch (Exception e) {
+            //try {
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
+            connection.Open();
+            string sql = "SELECT id, firstname, lastname, email, phone, address, vehicle, servicehistory FROM customers";
+            MySqlCommand command = new MySqlCommand(sql, connection);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read()) {
+                Int32 customerId = reader.GetInt32(0);
+                String customerFirstName = reader.GetString(1);
+                String customerLastName = reader.GetString(2);
+                String customerEmail = reader.GetString(3);
+                String customerPhone = reader.GetString(4);
+                String customerAddress = reader.GetString(5);
+                String customerVehicle = reader.GetString(6);
+                String customerServiceHistory = reader.GetString(7);
+                Customer c = new Customer(customerId, customerFirstName, customerLastName, customerEmail, customerPhone, customerAddress, customerVehicle, customerServiceHistory);
+                output.Add(c);
             }
+            connection.Close();
+            //} catch (Exception e) {
+            //}
 
             return output;
         }
@@ -51,18 +55,19 @@ namespace FinalAssignment.Classes {
         }
 
         internal void addToCustomerDatabase(Customer customerIn) {
-            try {
-                MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
-                connection.Open();
-                string sql = "INSERT into customers (id, firstname, lastname, email. phone, address, vehicle, servicehistory) VALUES ";
-                sql += customerIn.customerId.ToString() + ",";
-                sql += customerIn.customerFirstName + ",";
-                sql += customerIn.customerLastName + ",";
-                sql += customerIn.customerEmail + ",";
-                sql += customerIn.customerPhone + ",";
-                sql += customerIn.customerAddress + ",";
-                sql += customerIn.customerVehicle.toStringForDatabase() + ",";
-                String serviceHistory = "";
+            //try {
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
+            connection.Open();
+            string sql = "INSERT INTO customers VALUES ('";
+            sql += customerIn.customerId.ToString() + "','";
+            sql += customerIn.customerFirstName + "','";
+            sql += customerIn.customerLastName + "','";
+            sql += customerIn.customerEmail + "','";
+            sql += customerIn.customerPhone + "','";
+            sql += customerIn.customerAddress + "','";
+            sql += customerIn.customerVehicle.toStringForDatabase() + "','";
+            String serviceHistory = "";
+            if (customerIn.serviceHistory != null && customerIn.serviceHistory.Count > 0) {
                 foreach (ServiceEnum service in customerIn.serviceHistory) {
                     if (serviceHistory.Length > 0) {
                         serviceHistory += DATABASE_LIST_DELIMITER + Service.getStringFromService(service);
@@ -70,15 +75,18 @@ namespace FinalAssignment.Classes {
                         serviceHistory += Service.getStringFromService(service);
                     }
                 }
-                sql += serviceHistory;
-                sql += ")";
-                MySqlTransaction transaction = connection.BeginTransaction();
-                MySqlCommand command = new MySqlCommand(sql, connection, transaction);
-                command.ExecuteNonQuery();
-                transaction.Commit();
-                connection.Close();
-            } catch (Exception e) {
+            } else {
+                serviceHistory += "NONE";
             }
+            sql += serviceHistory;
+            sql += "');";
+            MySqlTransaction transaction = connection.BeginTransaction();
+            MySqlCommand command = new MySqlCommand(sql, connection, transaction);
+            command.ExecuteNonQuery();
+            transaction.Commit();
+            connection.Close();
+            //} catch (Exception e) {
+            //}
         }
 
         internal Customer? getCustomerFromDatabase(String email) {
@@ -102,9 +110,9 @@ namespace FinalAssignment.Classes {
         private static MySqlConnectionStringBuilder getSqlConnectionBuilder() {
             return new MySqlConnectionStringBuilder {
                 Server = "localhost",
-                UserID = "SYSTEM",
+                UserID = "root",
                 Password = "password",
-                Database = "customer"
+                Database = "customers_db"
             };
         }
     }
