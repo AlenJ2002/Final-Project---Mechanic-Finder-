@@ -11,13 +11,13 @@
         }
 
         public string toStringForDatabase() {
-            return this.vehicleMake + DatabaseManager.DATABASE_LIST_DELIMITER +
-                this.vehicleModel + DatabaseManager.DATABASE_LIST_DELIMITER +
+            return this.vehicleMake + "|" +
+                this.vehicleModel + "|" +
                 this.vehicleModelYear.ToString();
         }
 
         public static Vehicle getVehicleFromDatabaseString(String vehicleStringIn) {
-            String[] s = vehicleStringIn.Split(DatabaseManager.DATABASE_LIST_DELIMITER);
+            String[] s = vehicleStringIn.Split("|");
             return new Vehicle(s[0], s[1], Int32.Parse(s[2]));
         }
     }

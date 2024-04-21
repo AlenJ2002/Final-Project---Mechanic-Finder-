@@ -2,34 +2,31 @@
 
 namespace FinalAssignment.Classes {
     internal class DatabaseManager() {
-        private List<Customer> customerList = initializeCustomerDatabase();
-        private List<Review> reviews = initializeReviewDatabase();
-        internal static readonly String DATABASE_LIST_DELIMITER = "|";
+        private static readonly String CUSTOMERS_DATABASE_NAME = "customers_db";
+        private static readonly String REVIEWS_DATABASE_NAME = "reviews_db";
+        private static readonly String DATABASE_ADDRESS = "localhost";
+        private static readonly String DATABASE_USER = "root";
+        private static readonly String DATABASE_PASS = "password";
 
-        /* TODO
-         * - Finish reviews
-         */
-
-        private static List<Customer> initializeCustomerDatabase() {
+        internal List<Customer> getCustomersFromDatabase() {
             List<Customer> output = new List<Customer>();
 
             //try {
-            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(CUSTOMERS_DATABASE_NAME).ConnectionString);
             connection.Open();
-            string sql = "SELECT id, firstname, lastname, email, phone, address, vehicle, servicehistory FROM customers";
+            string sql = "SELECT firstname, lastname, email, phone, password, address, vehicle, servicehistory FROM customers";
             MySqlCommand command = new MySqlCommand(sql, connection);
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read()) {
-                Int32 customerId = reader.GetInt32(0);
-                String customerFirstName = reader.GetString(1);
-                String customerLastName = reader.GetString(2);
-                String customerEmail = reader.GetString(3);
-                String customerPhone = reader.GetString(4);
+                String customerFirstName = reader.GetString(0);
+                String customerLastName = reader.GetString(1);
+                String customerEmail = reader.GetString(2);
+                String customerPhone = reader.GetString(3);
+                String customerPassword = reader.GetString(4);
                 String customerAddress = reader.GetString(5);
                 String customerVehicle = reader.GetString(6);
                 String customerServiceHistory = reader.GetString(7);
-                Customer c = new Customer(customerId, customerFirstName, customerLastName, customerEmail, customerPhone, customerAddress, customerVehicle, customerServiceHistory);
-                output.Add(c);
+                output.Add(new Customer(customerFirstName, customerLastName, customerEmail, customerPhone, customerPassword, customerAddress, customerVehicle, customerServiceHistory));
             }
             connection.Close();
             //} catch (Exception e) {
@@ -38,39 +35,40 @@ namespace FinalAssignment.Classes {
             return output;
         }
 
-        private static List<Review> initializeReviewDatabase() {
+        internal List<Review> getReviewsFromDatabase() {
             List<Review> output = new List<Review>();
-            // load reviews from db and add to list
-
-            // sample reviews:
-            output.Add(new Review("Ken Ough", 5, "Amazing."));
-            output.Add(new Review("Tonald Drump", 1, "Worst deal EVER. Will NOT come back. #vote4me"));
-            output.Add(new Review("Name", 2, "Comment."));
-            output.Add(new Review("Name", 3, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."));
-            output.Add(new Review("Name", 1, "Comment."));
-            output.Add(new Review("Name", 4, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing at. Massa tempor nec feugiat nisl pretium. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Semper eget duis at tellus at urna. Ut tortor pretium viverra suspendisse potenti. Urna nec tincidunt praesent semper feugiat. Iaculis at erat pellentesque adipiscing commodo elit. Tortor at risus viverra adipiscing at in tellus integer feugiat. Eu ultrices vitae auctor eu augue ut. Enim ut tellus elementum sagittis vitae. Mauris augue neque gravida in fermentum et sollicitudin. Sit amet dictum sit amet justo donec enim diam. A lacus vestibulum sed arcu non. Hac habitasse platea dictumst quisque sagittis. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Aliquet lectus proin nibh nisl condimentum id venenatis a. Elit pellentesque habitant morbi tristique senectus et. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer."));
-            output.Add(new Review("Name", 2, "Comment."));
-            output.Add(new Review("Name", 5, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."));
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(REVIEWS_DATABASE_NAME).ConnectionString);
+            connection.Open();
+            string sql = "SELECT customer, rating, comments FROM reviews";
+            MySqlCommand command = new MySqlCommand(sql, connection);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read()) {
+                String reviewCustomer = reader.GetString(0);
+                Int32 reviewRating = reader.GetInt32(1);
+                String reviewComment = reader.GetString(2);
+                output.Add(new Review(reviewCustomer, reviewRating, reviewComment));
+            }
+            connection.Close();
             return output;
         }
 
         internal void addToCustomerDatabase(Customer customerIn) {
             //try {
-            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder().ConnectionString);
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(CUSTOMERS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "INSERT INTO customers VALUES ('";
-            sql += customerIn.customerId.ToString() + "','";
             sql += customerIn.customerFirstName + "','";
             sql += customerIn.customerLastName + "','";
             sql += customerIn.customerEmail + "','";
             sql += customerIn.customerPhone + "','";
+            sql += customerIn.customerPassword + "','";
             sql += customerIn.customerAddress + "','";
             sql += customerIn.customerVehicle.toStringForDatabase() + "','";
             String serviceHistory = "";
             if (customerIn.serviceHistory != null && customerIn.serviceHistory.Count > 0) {
                 foreach (ServiceEnum service in customerIn.serviceHistory) {
                     if (serviceHistory.Length > 0) {
-                        serviceHistory += DATABASE_LIST_DELIMITER + Service.getStringFromService(service);
+                        serviceHistory += "|" + Service.getStringFromService(service);
                     } else {
                         serviceHistory += Service.getStringFromService(service);
                     }
@@ -89,9 +87,46 @@ namespace FinalAssignment.Classes {
             //}
         }
 
-        internal Customer? getCustomerFromDatabase(String email) {
-            foreach (Customer c in this.customerList) {
-                if (c.customerEmail == email) {
+        internal String addToReviewDatabase(Review reviewIn) {
+            foreach (Review r in this.getReviewsFromDatabase()) {
+                if (r.reviewCustomer == reviewIn.reviewCustomer) {
+                    return "You have already written a review!";
+                }
+            }
+            MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(REVIEWS_DATABASE_NAME).ConnectionString);
+            connection.Open();
+            string sql = "INSERT INTO reviews VALUES ('";
+            sql += reviewIn.reviewCustomer + "','";
+            sql += reviewIn.reviewRating.ToString() + "','";
+            sql += reviewIn.reviewComment + "');";
+            MySqlTransaction transaction = connection.BeginTransaction();
+            MySqlCommand command = new MySqlCommand(sql, connection, transaction);
+            command.ExecuteNonQuery();
+            transaction.Commit();
+            connection.Close();
+            return "";
+        }
+
+        internal Int32 validateCustomerLogin(String emailIn, String passwordIn) {
+            // 0 = success
+            // 1 = email error
+            // 2 = pw error
+            foreach (Customer c in this.getCustomersFromDatabase()) {
+                if (c.customerEmail == emailIn) {
+                    if (c.customerPassword == passwordIn) {
+                        return 0;
+                    } else {
+                        return 2;
+                    }
+                }
+            }
+
+            return 1;
+        }
+
+        internal Customer? getCustomerByEmail(String emailIn) {
+            foreach (Customer c in this.getCustomersFromDatabase()) {
+                if (c.customerEmail == emailIn) {
                     return c;
                 }
             }
@@ -99,20 +134,12 @@ namespace FinalAssignment.Classes {
             return null;
         }
 
-        internal void addReview(Review r) {
-            // add a review to DB
-        }
-
-        internal List<Review> getReviews() {
-            return this.reviews;
-        }
-
-        private static MySqlConnectionStringBuilder getSqlConnectionBuilder() {
+        private static MySqlConnectionStringBuilder getSqlConnectionBuilder(String databaseNameIn) {
             return new MySqlConnectionStringBuilder {
-                Server = "localhost",
-                UserID = "root",
-                Password = "password",
-                Database = "customers_db"
+                Server = DATABASE_ADDRESS,
+                UserID = DATABASE_USER,
+                Password = DATABASE_PASS,
+                Database = databaseNameIn
             };
         }
     }
