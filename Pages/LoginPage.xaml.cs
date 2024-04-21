@@ -10,9 +10,11 @@ namespace FinalAssignment.Pages {
         private async void ContinueClicked(object sender, EventArgs e) {
             if (!new Utils().validatePage(this)) return;
 
+            // check email/pass against database
             Int32 result = MauiProgram.getDatabaseCommunicator().validateCustomerLogin(this.emailEntry.Text, this.passwordEntry.Text);
             switch (result) {
                 case 0:
+                    // success
                     new Utils().setPrimaryColor(this.emailEntry);
                     MauiProgram.setProfile(MauiProgram.getDatabaseCommunicator().getCustomerByEmail(this.emailEntry.Text));
                     break;

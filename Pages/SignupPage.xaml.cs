@@ -11,9 +11,16 @@ namespace FinalAssignment.Pages {
         private async void SignupContinue(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
 
+            String customerEmail = this.emailEntry.Text;
+            if (MauiProgram.getDatabaseCommunicator().getCustomerByEmail(customerEmail) != null) {
+                this.DisplayAlert("Error", "This e-mail is already registed! Try again.", "oops");
+                new Utils().setErrorColor(this.emailEntry);
+                return;
+            }
+
+            // create a customer using the fields
             String customerFirstName = this.FirstNameEntry.Text;
             String customerLastName = this.LastNameEntry.Text;
-            String customerEmail = this.emailEntry.Text;
             String customerPhone = this.phoneNumberEntry.Text;
             String customerPassword = this.passwordEntry.Text;
             String customerAddress = this.addressEntry.Text;
@@ -29,8 +36,12 @@ namespace FinalAssignment.Pages {
                 vehicleMake + "|" + vehicleModel + "|" + vehicleYear.ToString(),
                 ""
             );
+
+            // add to db
             MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
+            // set the global user profile
             MauiProgram.setProfile(c);
+            // redirect
             await Navigation.PushAsync(new HomePage());
         }
     }

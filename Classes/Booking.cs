@@ -1,4 +1,10 @@
 namespace FinalAssignment.Classes {
+
+    // the booking class
+    // bookingId = primary key
+    // bookingEmail
+    // bookingDateTime
+    // bookingType
     internal class Booking {
         internal Int32 bookingId { get; set; }
         internal String bookingEmail { get; set; }

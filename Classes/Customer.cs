@@ -1,4 +1,14 @@
 namespace FinalAssignment.Classes {
+
+    // the customer class
+    // customerFirstName
+    // customerLastName
+    // customerEmail = PRIMARY KEY
+    // customerPhone
+    // customerPassword
+    // customer address
+    // customervehicle
+    // serviceHistory
     internal class Customer {
         internal String customerFirstName { get; set; }
         internal String customerLastName { get; set; }
@@ -24,6 +34,8 @@ namespace FinalAssignment.Classes {
             this.customerPassword = customerPasswordIn;
             this.customerAddress = customerAddressIn;
             this.customerVehicle = Vehicle.getVehicleFromDatabaseString(customerVehicleIn);
+            
+            // iterate over all service history
             List<ServiceEnum> history = new List<ServiceEnum>();
             foreach (String s in customerServiceHistoryIn.Split("|")) {
                 if (!String.IsNullOrEmpty(s) && !String.IsNullOrWhiteSpace(s)) {
@@ -31,6 +43,7 @@ namespace FinalAssignment.Classes {
                     history.Add(theService);
                 }
             }
+
             this.serviceHistory = history;
         }
     }

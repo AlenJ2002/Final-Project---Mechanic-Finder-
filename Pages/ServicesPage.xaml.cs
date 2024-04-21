@@ -1,6 +1,7 @@
 ﻿using FinalAssignment.Classes;
 
 namespace FinalAssignment.Pages {
+    // preloaded buttons to the bookings page
     public partial class ServicesPage : ContentPage {
 
         public ServicesPage() {
@@ -24,6 +25,8 @@ namespace FinalAssignment.Pages {
         }
 
         private async void redirect(ServiceEnum serviceIn) {
+            // redirect only if logged in
+
             if (MauiProgram.getIsLoggedIn()) {
                 await Navigation.PushAsync(new BookingPage(serviceIn));
             } else {
