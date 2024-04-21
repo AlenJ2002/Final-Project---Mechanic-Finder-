@@ -19,7 +19,6 @@
                 <Button Text="Make a Booking" Clicked="onBookingsButtonClicked" WidthRequest="300"/>
                 <Button Text="See Reviews" Clicked="onReviewsButtonClicked" WidthRequest="300"/>
                 <Button Text="My Profile" Clicked="onProfileButtonClicked" WidthRequest="300"/>
-                <Button Text="Dashboard" Clicked="onDashboardButtonClicked" WidthRequest="300"/>
                 <Button Text="About Us" Clicked="onLocationButtonClicked" WidthRequest="300"/>
                 <Label HeightRequest="50"/>
             </VerticalStackLayout>
