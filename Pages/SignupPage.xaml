@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.SignupPage">
+
+
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Sign Up" HorizontalOptions="End"/>
+                <Label WidthRequest="400" TextColor="White" FontSize="18" Text="Please fill our the following information." HorizontalTextAlignment="Start"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label HeightRequest="80"/>
+                <Label HorizontalTextAlignment="Center" FontSize="18" FontAttributes="Bold" Text="Personal Info"/>
+                <Label HeightRequest="10"/>
+                <Label Text="First Name:" FontSize="18"/>
+                <Entry x:Name="FirstNameEntry" Placeholder="Ronald" WidthRequest="400"/>
+                <Label Text="Last Name:" FontSize="18"/>
+                <Entry x:Name="LastNameEntry" Placeholder="McDonald" WidthRequest="400"/>
+                <Label Text="Password:" FontSize="18"/>
+                <Entry x:Name="passwordEntry" Placeholder="Password" WidthRequest="400" IsPassword="True" Text="{Binding Password, Mode=TwoWay}"/>
+                <Label Text="Confirm Password:" FontSize="18"/>
+                <Entry x:Name="confirmpasswordentry" Placeholder="Confirm Password" WidthRequest="400" Text="{Binding Password, Mode=TwoWay}"/>
+                <Label Text="Email:" FontSize="18"/>
+                <Entry x:Name="emailEntry" Placeholder="imagine.using@gmail.com" WidthRequest="400"/>
+                <Label Text="Address:" FontSize="18"/>
+                <Entry x:Name="addressEntry" Placeholder="808 Bass Heights" WidthRequest="400"/>
+                <Label Text="Phone:" FontSize="18"/>
+                <Entry x:Name="phoneNumberEntry" Keyboard="Telephone" Placeholder="123-456-7890" WidthRequest="400"/>
+                <Label HeightRequest="50"/>
+                <Label HorizontalTextAlignment="Center" FontSize="18" FontAttributes="Bold" Text="Vehicle Info"/>
+                <Label HeightRequest="10"/>
+                <Label Text="Make:" FontSize="18"/>
+                <Entry x:Name="vehicleMakeEntry" Placeholder="Kar" WidthRequest="400"/>
+                <Label Text="Model:" FontSize="18"/>
+                <Entry x:Name="vehicleModelEntry" Placeholder="Modle" WidthRequest="400"/>
+                <Label Text="Year:" FontSize="18"/>
+                <Entry x:Name="vehicleYearEntry" Keyboard="Numeric" Placeholder="1969" WidthRequest="400"/>
+                
+                <Label HeightRequest="50"/>
+                <Button Text="Register" Clicked="SignupContinue" WidthRequest="300"/>
+                <Label HeightRequest="80"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
