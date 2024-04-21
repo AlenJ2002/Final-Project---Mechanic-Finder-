@@ -17,7 +17,7 @@ namespace FinalAssignment.Classes.Exceptions {
         {
             if (string.IsNullOrWhiteSpace (lastname))
             {
-                throw new ArgumentException("Last name is required. Please enter a valid last name.")
+                throw new ArgumentException("Last name is required. Please enter a valid last name.");
             }
         }
 
@@ -25,14 +25,12 @@ namespace FinalAssignment.Classes.Exceptions {
         {
             if (string.IsNullOrWhiteSpace(password))
             {
-                throw new ArgumentException("Address is required. Please enter a valid address.")
+                throw new ArgumentException("Address is required. Please enter a valid address.");
             }
             if (password.Length < 8)
             {
-                throw new ArgumentException("Password must be at least 8 characters long.")
+                throw new ArgumentException("Password must be at least 8 characters long.");
             }
         }
-
-        public static void 
     }
 }
