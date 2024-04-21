@@ -1,4 +1,4 @@
-﻿namespace FinalAssignment.Classes {
+]﻿namespace FinalAssignment.Classes {
     internal class Customer {
         internal Int32 customerId { get; set; }
         internal String customerFirstName { get; set; }
@@ -52,3 +52,4 @@
         }
     }
 }
+
