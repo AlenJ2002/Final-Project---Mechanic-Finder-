@@ -1,5 +1,4 @@
 namespace FinalAssignment.Classes {
-
     // the customer class
     // customerFirstName
     // customerLastName

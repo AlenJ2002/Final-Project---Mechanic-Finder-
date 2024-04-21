@@ -57,7 +57,7 @@ namespace FinalAssignment.Classes {
 
         internal List<Booking> getBookingsFromDatabase() {
             // create list of bookings using database
-
+          
             List<Booking> output = new List<Booking>();
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(BOOKINGS_DATABASE_NAME).ConnectionString);
             connection.Open();
@@ -77,7 +77,7 @@ namespace FinalAssignment.Classes {
 
         internal void addToCustomerDatabase(Customer customerIn) {
             // add a customer to database
-
+          
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(CUSTOMERS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "INSERT INTO customers VALUES ('";
@@ -178,7 +178,6 @@ namespace FinalAssignment.Classes {
 
         internal Customer? getCustomerByEmail(String emailIn) {
             // find a customer in database using a search email string
-
             foreach (Customer c in this.getCustomersFromDatabase()) {
                 if (c.customerEmail == emailIn) {
                     return c;
