@@ -30,15 +30,20 @@ namespace FinalAssignment.Pages {
         private async void onSubmitButtonClicked(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
             DateTime dt = this.serviceDatePicker.Date;
-            dt.AddHours(this.serviceTimePicker.Time.Hours).AddMinutes(this.serviceTimePicker.Time.Minutes);
-            MauiProgram.getDatabaseCommunicator().addBookingToDatabase(new Booking(
-                MauiProgram.getDatabaseCommunicator().getBookingsFromDatabase().Count,
+            dt = dt.AddHours(this.serviceTimePicker.Time.Hours).AddMinutes(this.serviceTimePicker.Time.Minutes);
+            String result = MauiProgram.getDatabaseCommunicator().addBookingToDatabase(new Booking(
+                MauiProgram.getDatabaseCommunicator().getBookingsFromDatabase().Count + 1,
                 MauiProgram.getCustomerProfile().customerEmail,
                 dt,
                 Service.getServiceFromString(this.serviceTypePicker.SelectedItem.ToString())
             ));
-            await this.DisplayAlert("Success", "You have created a booking!", "noice");
-            await Navigation.PushAsync(new HomePage());
+            if (result.Length > 0) {
+                await this.DisplayAlert("Error", result, "oops");
+            } else {
+                await this.DisplayAlert("Success", "You have created a booking!", "noice");
+                await Navigation.PushAsync(new HomePage());
+            }
+            
         }
     }
 }

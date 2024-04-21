@@ -136,9 +136,10 @@ namespace FinalAssignment.Classes {
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(BOOKINGS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "INSERT INTO bookings VALUES ('";
-            sql += bookingIn.bookingId.ToString() + "','";
+            sql += bookingIn.bookingId + "','";
             sql += bookingIn.bookingEmail + "','";
-            sql += bookingIn.bookingDateTime.ToString("yyyy-MM-dd','HH:mm") + "','";
+            sql += bookingIn.bookingDateTime.ToString("yyyy-MM-dd") + "','";
+            sql += bookingIn.bookingDateTime.ToString("HH:mm") + "','";
             sql += Service.getStringFromService(bookingIn.bookingType) + "');";
             MySqlTransaction transaction = connection.BeginTransaction();
             MySqlCommand command = new MySqlCommand(sql, connection, transaction);
