@@ -10,15 +10,15 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.finalassignment</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2515C66C459157EEC4EFD40EAAC95246C77565050271A8627CF8A7928AB6D9B8</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DAA7A3E69D5951C526C4B418B98B73189A57D265E59E5A59FAC2BF22CA94C755</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.finalassignment_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.finalassignment_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.finalassignment</RegisteredPackageID>
@@ -26,268 +26,260 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-16T04:26:47.077</Modified>
+      <Modified>2024-04-21T01:46:41.839</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-16T04:26:46.876</Modified>
+      <Modified>2024-04-21T01:46:41.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.runtimeconfig.json">
       <PackagePath>FinalAssignment.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-15T02:51:02.666</Modified>
+      <Modified>2024-04-21T01:46:41.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.dll">
       <PackagePath>FinalAssignment.dll</PackagePath>
-      <Modified>2024-04-16T04:26:45.787</Modified>
+      <Modified>2024-04-21T01:46:39.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FinalAssignment.exe</PackagePath>
-      <Modified>2024-04-16T04:26:45.846</Modified>
+      <Modified>2024-04-21T01:46:39.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-04-12T17:59:30.438</Modified>
+      <Modified>2024-04-16T14:21:20.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:45.242</Modified>
+      <Modified>2024-04-21T01:46:37.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:45.255</Modified>
+      <Modified>2024-04-21T01:46:37.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:45.274</Modified>
+      <Modified>2024-04-21T01:46:37.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:45.302</Modified>
+      <Modified>2024-04-21T01:46:37.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:45.416</Modified>
+      <Modified>2024-04-21T01:46:37.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-04-12T17:59:30.432</Modified>
+      <Modified>2024-04-16T14:21:20.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-04-12T17:59:30.433</Modified>
+      <Modified>2024-04-16T14:21:20.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-04-12T17:59:46.395</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar.scale-100.jpeg">
+      <PackagePath>avatar.scale-100.jpeg</PackagePath>
+      <Modified>2024-04-21T00:45:14.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.988</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backsplash.scale-100.jpg">
+      <PackagePath>backsplash.scale-100.jpg</PackagePath>
+      <Modified>2024-04-21T00:45:14.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:47.011</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\map.scale-100.png">
+      <PackagePath>map.scale-100.png</PackagePath>
+      <Modified>2024-04-21T00:45:14.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:47.030</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:47.066</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:47.201</Modified>
+      <Modified>2024-04-21T01:46:39.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.535</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.544</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.579</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.554</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.563</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.486</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.493</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.525</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.501</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.509</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.410</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.419</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.426</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.434</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.443</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.449</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.455</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.481</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.461</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.467</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.692</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.704</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.722</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.747</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.776</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.635</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.642</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.650</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.660</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.681</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.586</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.596</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.603</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.611</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.625</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.787</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.802</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.817</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.845</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.971</Modified>
+      <Modified>2024-04-21T01:46:39.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.391</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.403</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.416</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.126</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.437</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.111</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-04-12T17:59:46.502</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.deps.json">
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-04-21T01:46:39.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-04-21T01:46:38.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-04-21T01:46:38.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\Documents\FinalProject-CPRG211-F\Final-Project---Mechanic-Finder-\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FinalAssignment.deps.json">
       <PackagePath>FinalAssignment.deps.json</PackagePath>
-      <Modified>2024-04-15T02:51:02.540</Modified>
+      <Modified>2024-04-21T01:46:41.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -333,289 +325,293 @@
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2023-10-31T14:58:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
-      <Modified>2023-05-31T20:07:52.000</Modified>
+      <Modified>2024-03-11T15:36:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.compatibility\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
-      <Modified>2024-02-13T17:13:18.000</Modified>
+      <Modified>2024-04-09T15:55:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
       <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
-      <Modified>2024-02-13T17:10:42.000</Modified>
+      <Modified>2024-04-09T15:53:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.xaml\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.xaml\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
       <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
-      <Modified>2024-02-13T17:11:08.000</Modified>
+      <Modified>2024-04-09T15:53:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.core\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
-      <Modified>2024-02-13T17:11:04.000</Modified>
+      <Modified>2024-04-09T15:54:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.essentials\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.essentials\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
-      <Modified>2024-02-13T17:14:08.000</Modified>
+      <Modified>2024-04-09T15:55:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.graphics\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.graphics\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
-      <Modified>2024-02-13T17:11:28.000</Modified>
+      <Modified>2024-04-09T15:55:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
-      <Modified>2024-02-13T17:13:18.000</Modified>
+      <Modified>2024-04-09T15:55:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
-      <Modified>2023-07-21T16:44:46.000</Modified>
+      <Modified>2024-03-08T03:58:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
       <PackagePath>Microsoft.WinUI.dll</PackagePath>
-      <Modified>2023-07-21T22:29:28.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
       <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
       <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
       <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
-      <Modified>2023-04-28T12:59:12.000</Modified>
+      <Modified>2024-03-08T18:45:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll">
+      <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+      <Modified>2024-03-11T10:57:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
       <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
       <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
       <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
       <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
       <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
-      <Modified>2023-04-20T18:26:28.000</Modified>
+      <Modified>2024-01-18T21:47:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
-      <Modified>2023-07-21T22:29:26.000</Modified>
+      <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
-      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
-      <Modified>2023-07-24T19:10:10.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\mysqlconnector\2.3.6\lib\net8.0\MySqlConnector.dll">
+      <PackagePath>MySqlConnector.dll</PackagePath>
+      <Modified>2024-03-20T11:26:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:53:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:16.000</Modified>
+      <Modified>2024-04-09T15:53:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:16.000</Modified>
+      <Modified>2024-04-09T15:53:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:12.000</Modified>
+      <Modified>2024-04-09T15:53:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:42.000</Modified>
+      <Modified>2024-04-09T15:53:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:16.000</Modified>
+      <Modified>2024-04-09T15:53:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:42.000</Modified>
+      <Modified>2024-04-09T15:53:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:10.000</Modified>
+      <Modified>2024-04-09T15:53:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:22.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:52.000</Modified>
+      <Modified>2024-04-09T15:54:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:53:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:52.000</Modified>
+      <Modified>2024-04-09T15:54:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:22.000</Modified>
+      <Modified>2024-04-09T15:53:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:20.000</Modified>
+      <Modified>2024-04-09T15:54:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:22.000</Modified>
+      <Modified>2024-04-09T15:53:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:53:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:54:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:48.000</Modified>
+      <Modified>2024-04-09T15:53:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:52.000</Modified>
+      <Modified>2024-04-09T15:53:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:20.000</Modified>
+      <Modified>2024-04-09T15:54:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:48.000</Modified>
+      <Modified>2024-04-09T15:54:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:22.000</Modified>
+      <Modified>2024-04-09T15:54:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:54:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:20.000</Modified>
+      <Modified>2024-04-09T15:53:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:22.000</Modified>
+      <Modified>2024-04-09T15:54:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:20.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:22.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:48.000</Modified>
+      <Modified>2024-04-09T15:54:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:22.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:20.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:11:24.000</Modified>
+      <Modified>2024-04-09T15:54:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:52.000</Modified>
+      <Modified>2024-04-09T15:54:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:22.000</Modified>
+      <Modified>2024-04-09T15:53:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-02-13T17:10:50.000</Modified>
+      <Modified>2024-04-09T15:53:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.graphics.win2d\1.2.0\runtimes\win-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2023-05-31T20:12:36.000</Modified>
+      <Modified>2024-03-11T15:36:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
-      <Modified>2023-04-28T12:58:40.000</Modified>
+      <Modified>2024-03-08T18:44:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.compatibility\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
-      <Modified>2024-02-13T17:01:52.000</Modified>
+      <Modified>2024-04-09T15:30:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.controls.core\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
-      <Modified>2024-02-13T17:01:16.000</Modified>
+      <Modified>2024-04-09T15:29:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+    <AppxPackagedFile Include="C:\Users\Bogda\.nuget\packages\microsoft.maui.core\8.0.20\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
-      <Modified>2024-02-13T17:00:42.000</Modified>
+      <Modified>2024-04-09T15:24:58.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
-      <Version>3000.934.1904.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.70.1338.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
-      <Version>3000.934.1904.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.70.1338.0</Version>
       <Architecture>win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
-      <Version>3000.934.1904.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.70.1338.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
-      <Version>3000.934.1904.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.70.1338.0</Version>
       <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Bogda\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

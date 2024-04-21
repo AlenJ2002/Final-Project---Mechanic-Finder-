@@ -11,19 +11,16 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="HomePage.xaml">
+    <MauiXaml Update="Pages\UnknownUserPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoginPage.xaml">
+    <MauiXaml Update="Pages\BookingPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="NewPage1.xaml">
+    <MauiXaml Update="Pages\ProfilePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="ReviewsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="SignupPage.xaml">
+    <MauiXaml Update="Pages\LocationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
@@ -34,13 +31,7 @@
     <None Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </None>
-    <None Update="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\App.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\Package.appxmanifest">
+    <None Update="Pages\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Update="Resources\Styles\Colors.xaml">

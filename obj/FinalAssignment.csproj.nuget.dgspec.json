@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj": {}
+    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\FinalAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj": {
+    "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\FinalAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\FinalAssignment.csproj",
         "projectName": "FinalAssignment",
-        "projectPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\FinalAssignment.csproj",
+        "projectPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\FinalAssignment.csproj",
         "packagesPath": "C:\\Users\\Bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\obj\\",
+        "outputPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -72,17 +72,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
             }
           },
           "imports": [
@@ -115,17 +119,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
             }
           },
           "imports": [
@@ -158,17 +166,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
             }
           },
           "imports": [
@@ -202,11 +214,15 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.20, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
             }
           },
           "imports": [

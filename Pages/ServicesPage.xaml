@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.ServicesPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Services"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="How can we help?"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label HeightRequest="25"/>
+                <Frame BackgroundColor="{StaticResource Primary}" CornerRadius="20">
+                    <HorizontalStackLayout VerticalOptions="Center" Spacing="10">
+                        <VerticalStackLayout>
+                            <Label Margin="10" FontSize="18" TextColor="White" FontAttributes="Bold" Text="Maintenance"/>
+                            <Editor WidthRequest="350" FontSize="14" TextColor="#C0C0C0"
+                                    Text="Everyday vehicle maintenance, done at a reasonable price. We do oil changes, tire rotations, brakes and more!"
+                                    IsReadOnly="True"/>
+                        </VerticalStackLayout>
+                        <Button HeightRequest="50" BackgroundColor="White" TextColor="{StaticResource Primary}" Text="Book Now" Clicked="onMaintenanceButtonClicked"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Primary}" CornerRadius="20">
+                    <HorizontalStackLayout VerticalOptions="Center" Spacing="10">
+                        <VerticalStackLayout>
+                            <Label Margin="10" FontSize="18" TextColor="White" FontAttributes="Bold" Text="Diagnostics"/>
+                            <Editor WidthRequest="350" FontSize="14" TextColor="#C0C0C0"
+                                    Text="Does your car makes a noise? No idea where it's coming from? Not to worry, our mechanics have experience, duct tape and WD-40......and your back. (Yes, we have actual tools.)"
+                                    IsReadOnly="True"/>
+                        </VerticalStackLayout>
+                        <Button HeightRequest="50" BackgroundColor="White" TextColor="{StaticResource Primary}" Text="Book Now" Clicked="onDiagnosticsButtonClicked"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Primary}" CornerRadius="20">
+                    <HorizontalStackLayout VerticalOptions="Center" Spacing="10">
+                        <VerticalStackLayout>
+                            <Label Margin="10" FontSize="18" TextColor="White" FontAttributes="Bold" Text="Repair"/>
+                            <Editor WidthRequest="350" FontSize="14" TextColor="#C0C0C0"
+                                    Text="It happens - we won't tell if you don't. We do dent repair, windshield replacements and much more. No task is too difficult for us. Tell us what needs fixing and we'll have it done quick."
+                                    IsReadOnly="True"/>
+                        </VerticalStackLayout>
+                        <Button HeightRequest="50" BackgroundColor="White" TextColor="{StaticResource Primary}" Text="Book Now" Clicked="onRepairButtonClicked"/>
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Primary}" CornerRadius="20">
+                    <HorizontalStackLayout VerticalOptions="Center" Spacing="10">
+                        <VerticalStackLayout>
+                            <Label Margin="10" FontSize="18" TextColor="White" FontAttributes="Bold" Text="Not Sure?"/>
+                            <Editor WidthRequest="350" FontSize="14" TextColor="#C0C0C0"
+                                    Text="Our professional technicians know their stuff. We can fix any car in any shape* (except totalled). Get a free consultation now and we'll get you back on the road."
+                                    IsReadOnly="True"/>
+                        </VerticalStackLayout>
+                        <Button HeightRequest="50" BackgroundColor="White" TextColor="{StaticResource Primary}" Text="Contact Us" Clicked="onContactButtonClicked"/>
+                    </HorizontalStackLayout>
+                </Frame>
+                <Label HeightRequest="25"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

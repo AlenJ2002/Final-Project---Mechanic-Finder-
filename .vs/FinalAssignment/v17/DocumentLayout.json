@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\",
+  "WorkspaceRootPath": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|c:\\users\\bogda\\documents\\finalproject-cprg211-f\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|c:\\users\\bogda\\documents\\finalproject-cprg211-f\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|c:\\users\\bogda\\documents\\finalproject-cprg211-f\\final-project---mechanic-finder-\\classes\\bookingpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDB9135-DF4F-4E09-B1F9-B7BD7476D05F}|FinalAssignment.csproj|solutionrelative:classes\\bookingpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +13,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 342,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "BookingpageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\Classes\\BookingpageViewModel.cs",
+              "RelativeDocumentMoniker": "Classes\\BookingpageViewModel.cs",
+              "ToolTip": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\Final-Project---Mechanic-Finder-\\Classes\\BookingpageViewModel.cs",
+              "RelativeToolTip": "Classes\\BookingpageViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:16:06.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Bogda\\Documents\\FinalProject-CPRG211-F\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-15T02:50:26.604Z",
+              "WhenOpened": "2024-04-21T01:46:21.996Z",
               "EditorCaption": ""
             }
           ]

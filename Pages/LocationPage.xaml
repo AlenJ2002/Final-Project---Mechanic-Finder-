@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.LocationPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- duckduckgo maps -->
+        <Image Grid.Column="1" Grid.Row="0" Source="map.png" Aspect="AspectFill" Opacity="1"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="About Us"/>
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Shop Location:"/>
+                    <Label TextColor="White" FontSize="14" Text="123 Bob Street"/>
+                    <Label TextColor="White" FontSize="14" Text="Coquitlam, BC"/>
+                    <Label TextColor="White" FontSize="14" Text="(604)-469-2020"/>
+                    <Label HeightRequest="50"/>
+                    <Label WidthRequest="300" TextColor="White" FontSize="18" FontAttributes="Bold" Text="Hours of Operations:"/>
+                    <Label TextColor="White" FontSize="14" Text="Monday - Friday: 08:00 - 19:00"/>
+                    <Label TextColor="White" FontSize="14" Text="Saturday - Sunday: Closed"/>
+                    <Label HeightRequest="50"/>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Border>
+    </Grid>
+</ContentPage>

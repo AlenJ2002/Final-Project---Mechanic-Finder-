@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.BookingPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Create a Booking"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="Let's get you back on the road"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+                <Label HeightRequest="50"/>
+                <Label WidthRequest="400" FontSize="18" Text="Service Type:"/>
+                <Picker WidthRequest="400" x:Name="serviceTypePicker" SelectedIndexChanged="onServicePickerChanged"/>
+                <Label WidthRequest="400" FontSize="18" Text="Date:"/>
+                <DatePicker WidthRequest="400" TextColor="White" x:Name="serviceDatePicker" Date="{Binding SelectedDate}" MinimumDate="{Binding MinimumDate}"/>
+                <Label WidthRequest="400" FontSize="18" Text="Time:"/>
+                <TimePicker WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceTimePicker" Time="{Binding SelectedTime}" IsEnabled="{Binding IsTimePickerEnabled}" />
+                <Label WidthRequest="400" FontSize="18" Text="Estimated Cost:"/>
+                <Entry WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceCostLabel" Text="$0.00" IsReadOnly="True"/>
+                <Label HeightRequest="50"/>
+                <Button WidthRequest="300" Text="Create Booking" Clicked="onSubmitButtonClicked"/>
+                <Label HeightRequest="50"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

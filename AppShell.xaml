@@ -3,27 +3,14 @@
     x:Class="FinalAssignment.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:FinalAssignment"
-    Shell.FlyoutBehavior="Flyout"
+    xmlns:local="clr-namespace:FinalAssignment.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
     Title="FinalAssignment">
+    <!-- Shell.FlyoutBehavior="Flyout" -->
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
-	<ShellContent
-        Title="Signup"
-        ContentTemplate="{DataTemplate local:SignupPage}"
-        Route="SignupPage" />
-	<ShellContent
-        Title="Login"
-        ContentTemplate="{DataTemplate local:LoginPage}"
-        Route="LoginPage" />
-	<ShellContent
-        Title="HomePage"
-        ContentTemplate="{DataTemplate local:HomePage}"
-        Route="HomePage" />
-
-
+        Title=" "
+        ContentTemplate="{DataTemplate local:LandingPage}"
+        Route="LandingPage" />
 </Shell>

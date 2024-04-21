@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalAssignment.Pages.LandingPage">
+    <Grid ColumnDefinitions="*,1.25*" RowDefinitions="*">
+        <!-- https://wallpaperaccess.com/car-blueprint -->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="backsplash.jpg" Aspect="AspectFill" Opacity="0.15"/>
+        <Border BackgroundColor="{StaticResource Primary}" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="10,0" Radius="15" Opacity="0.333"/>
+            </Border.Shadow>
+            <VerticalStackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label WidthRequest="300" TextColor="White" FontSize="32" FontAttributes="Bold" Text="Welcome to Mechanic Finder"/>
+                <Label WidthRequest="300" TextColor="White" FontSize="18" Text="Link up, Tune up, Drive on!"/>
+            </VerticalStackLayout>
+        </Border>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                <Label HeightRequest="50"/>
+                <Label FontSize="18" HorizontalTextAlignment="Center" Text="Please select:"/>
+                <Label HeightRequest="50"/>
+                <Button WidthRequest="300" Text="Login" Clicked="LogInClicked"/>
+                <Button WidthRequest="300" Text="Register" Clicked="SignUpClicked"/>
+                <Label HeightRequest="50"/>
+                <Button WidthRequest="300" Text="Continue as Guest" Clicked="ContinueWithoutLogin"/>
+                <Label HeightRequest="50"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
