@@ -1,4 +1,5 @@
 ﻿namespace FinalAssignment.Classes {
+    // service types:
     internal enum ServiceEnum {
         MAINTENANCE,
         DIAGNOSTICS,
@@ -7,6 +8,7 @@
         NONE
     }
 
+    // service class
     internal class Service {
 
         private readonly Dictionary<ServiceEnum, Double> serviceCost = new Dictionary<ServiceEnum, Double>();
@@ -20,6 +22,7 @@
         }
 
         public double GetServicePrice(ServiceEnum serviceIn) {
+            // get price for a service
             return this.serviceCost.GetValueOrDefault(serviceIn);
         }
 
@@ -28,6 +31,7 @@
         }
 
         internal static ServiceEnum getServiceFromString(String serviceNameIn) {
+            // get a service using a string
             switch (serviceNameIn) {
                 case "MAINTENANCE":
                     return ServiceEnum.MAINTENANCE;
@@ -43,6 +47,7 @@
         }
 
         internal static String getStringFromService(ServiceEnum serviceIn) {
+            // get a string using a service
             switch (serviceIn) {
                 case ServiceEnum.MAINTENANCE:
                     return "MAINTENANCE";
@@ -58,6 +63,7 @@
         }
 
         internal static ServiceEnum getRecommendedService(String searchTermIn) {
+            // recommends a service based on a search string
             switch (searchTermIn) {
                 case "oil":
                     return ServiceEnum.MAINTENANCE;

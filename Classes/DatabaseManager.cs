@@ -2,6 +2,8 @@
 using System.Globalization;
 
 namespace FinalAssignment.Classes {
+
+    // manages the database
     internal class DatabaseManager() {
         private static readonly String CUSTOMERS_DATABASE_NAME = "customers_db";
         private static readonly String REVIEWS_DATABASE_NAME = "reviews_db";
@@ -11,9 +13,9 @@ namespace FinalAssignment.Classes {
         private static readonly String DATABASE_PASS = "password";
 
         internal List<Customer> getCustomersFromDatabase() {
-            List<Customer> output = new List<Customer>();
+            // create list of customers using database
 
-            //try {
+            List<Customer> output = new List<Customer>();
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(CUSTOMERS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "SELECT firstname, lastname, email, phone, password, address, vehicle, servicehistory FROM customers";
@@ -31,13 +33,12 @@ namespace FinalAssignment.Classes {
                 output.Add(new Customer(customerFirstName, customerLastName, customerEmail, customerPhone, customerPassword, customerAddress, customerVehicle, customerServiceHistory));
             }
             connection.Close();
-            //} catch (Exception e) {
-            //}
-
             return output;
         }
 
         internal List<Review> getReviewsFromDatabase() {
+            // create list of reviews using database
+
             List<Review> output = new List<Review>();
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(REVIEWS_DATABASE_NAME).ConnectionString);
             connection.Open();
@@ -55,6 +56,8 @@ namespace FinalAssignment.Classes {
         }
 
         internal List<Booking> getBookingsFromDatabase() {
+            // create list of bookings using database
+          
             List<Booking> output = new List<Booking>();
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(BOOKINGS_DATABASE_NAME).ConnectionString);
             connection.Open();
@@ -73,7 +76,8 @@ namespace FinalAssignment.Classes {
         }
 
         internal void addToCustomerDatabase(Customer customerIn) {
-            //try {
+            // add a customer to database
+          
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(CUSTOMERS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "INSERT INTO customers VALUES ('";
@@ -103,13 +107,15 @@ namespace FinalAssignment.Classes {
             command.ExecuteNonQuery();
             transaction.Commit();
             connection.Close();
-            //} catch (Exception e) {
-            //}
         }
 
         internal String addToReviewDatabase(Review reviewIn) {
+            // add review to database
+
+            // check if this customer has written a review before
             foreach (Review r in this.getReviewsFromDatabase()) {
                 if (r.reviewCustomer == reviewIn.reviewCustomer) {
+                    // error message for duplicate reviewer
                     return "You have already written a review!";
                 }
             }
@@ -128,17 +134,21 @@ namespace FinalAssignment.Classes {
         }
 
         internal String addBookingToDatabase(Booking bookingIn) {
+            // add a booking to database
+
             foreach (Booking b in this.getBookingsFromDatabase()) {
                 if (b.bookingId == bookingIn.bookingId) {
+                    // error message for duplicate booking id
                     return "This booking ID exists!";
                 }
             }
             MySqlConnection connection = new MySqlConnection(getSqlConnectionBuilder(BOOKINGS_DATABASE_NAME).ConnectionString);
             connection.Open();
             string sql = "INSERT INTO bookings VALUES ('";
-            sql += bookingIn.bookingId.ToString() + "','";
+            sql += bookingIn.bookingId + "','";
             sql += bookingIn.bookingEmail + "','";
-            sql += bookingIn.bookingDateTime.ToString("yyyy-MM-dd','HH:mm") + "','";
+            sql += bookingIn.bookingDateTime.ToString("yyyy-MM-dd") + "','";
+            sql += bookingIn.bookingDateTime.ToString("HH:mm") + "','";
             sql += Service.getStringFromService(bookingIn.bookingType) + "');";
             MySqlTransaction transaction = connection.BeginTransaction();
             MySqlCommand command = new MySqlCommand(sql, connection, transaction);
@@ -149,6 +159,7 @@ namespace FinalAssignment.Classes {
         }
 
         internal Int32 validateCustomerLogin(String emailIn, String passwordIn) {
+            // return int for login validation
             // 0 = success
             // 1 = email error
             // 2 = pw error
@@ -166,6 +177,7 @@ namespace FinalAssignment.Classes {
         }
 
         internal Customer? getCustomerByEmail(String emailIn) {
+            // find a customer in database using a search email string
             foreach (Customer c in this.getCustomersFromDatabase()) {
                 if (c.customerEmail == emailIn) {
                     return c;

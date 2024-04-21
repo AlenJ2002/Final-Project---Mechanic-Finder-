@@ -89,14 +89,14 @@ namespace FinalAssignment.Pages {
         public async void onSubmitButtonClicked(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
 
-            // TODO: Add review to DB
             String reviewName = ReviewerNameEntry.Text;
             Int32 reviewRating = Convert.ToInt32(Math.Round(ratingSlider.Value));
             String reviewComment = CommentsEntry.Text;
 
-            // Add review
+            // Add review to db
             String result = MauiProgram.getDatabaseCommunicator().addToReviewDatabase(new Review(reviewName, reviewRating, reviewComment));
             if (result.Length > 0) {
+                // only error should be same customer
                 await this.DisplayAlert("Error", result, "oops");
                 new Utils().setErrorColor(this.ReviewerNameEntry);
             } else {
@@ -123,6 +123,7 @@ namespace FinalAssignment.Pages {
             return (double)totalRating / reviews.Count;
         }
 
+        // reset all fields and colours
         private void resetForm() {
             this.ReviewerNameEntry.BackgroundColor = Color.FromRgb(255, 255, 255);
             this.ReviewerNameEntry.Text = "";

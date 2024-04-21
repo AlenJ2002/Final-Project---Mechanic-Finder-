@@ -22,10 +22,6 @@ namespace FinalAssignment.Pages {
             await Navigation.PushAsync(new ReviewsPage());
         }
 
-        private async void onDashboardButtonClicked(object sender, EventArgs e) {
-            await Navigation.PushAsync(new DashboardPage());
-        }
-
         private async void onProfileButtonClicked(object sender, EventArgs e) {
             if (MauiProgram.getIsLoggedIn()) {
                 await Navigation.PushAsync(new ProfilePage());
