@@ -24,11 +24,10 @@ namespace FinalAssignment.Pages {
                 customerEmail,
                 customerPhone,
                 customerAddress,
-                vehicleMake + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleModel + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleYear.ToString(),
+                vehicleMake + DatabaseManager.DATABASE_LIST_DELIMITER + vehicleModel + DatabaseManager.DATABASE_LIST_DELIMITER + vehicleYear.ToString(),
                 ""
             );
-            // TODO: Add back in when database is created
-            //MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
+            MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
             MauiProgram.setProfile(c);
             await Navigation.PushAsync(new HomePage());
         }

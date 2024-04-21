@@ -1,4 +1,4 @@
-﻿namespace FinalAssignment.Classes {
+]﻿namespace FinalAssignment.Classes {
     internal class Customer {
         internal Int32 customerId { get; set; }
         internal String customerFirstName { get; set; }
@@ -25,9 +25,11 @@
             this.customerAddress = customerAddressIn;
             this.customerVehicle = Vehicle.getVehicleFromDatabaseString(customerVehicleIn);
             List<ServiceEnum> history = new List<ServiceEnum>();
-            foreach (String s in customerServiceHistoryIn.Split(DatabaseCommunicator.DATABASE_LIST_DELIMITER)) {
-                ServiceEnum theService = Service.getServiceFromString(s);
-                history.Add(theService);
+            foreach (String s in customerServiceHistoryIn.Split(DatabaseManager.DATABASE_LIST_DELIMITER)) {
+                if (!String.IsNullOrEmpty(s) && !String.IsNullOrWhiteSpace(s)) {
+                    ServiceEnum theService = Service.getServiceFromString(s);
+                    history.Add(theService);
+                }
             }
             this.serviceHistory = history;
         }
@@ -50,3 +52,4 @@
         }
     }
 }
+
