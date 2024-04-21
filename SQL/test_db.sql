@@ -3,3 +3,6 @@ SELECT firstname, lastname, email, phone, password, address, vehicle, servicehis
 
 USE reviews_db;
 SELECT customer, rating, comments FROM reviews;
+
+USE bookings_db;
+SELECT id, email, day, timeslot, service FROM bookings;

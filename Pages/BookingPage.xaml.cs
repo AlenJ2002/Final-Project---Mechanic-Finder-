@@ -29,7 +29,14 @@ namespace FinalAssignment.Pages {
 
         private async void onSubmitButtonClicked(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
-            // TODO: add to db
+            DateTime dt = this.serviceDatePicker.Date;
+            dt.AddHours(this.serviceTimePicker.Time.Hours).AddMinutes(this.serviceTimePicker.Time.Minutes);
+            MauiProgram.getDatabaseCommunicator().addBookingToDatabase(new Booking(
+                MauiProgram.getDatabaseCommunicator().getBookingsFromDatabase().Count,
+                MauiProgram.getCustomerProfile().customerEmail,
+                dt,
+                Service.getServiceFromString(this.serviceTypePicker.SelectedItem.ToString())
+            ));
             await this.DisplayAlert("Success", "You have created a booking!", "noice");
             await Navigation.PushAsync(new HomePage());
         }
