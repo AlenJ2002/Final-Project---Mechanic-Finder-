@@ -27,6 +27,8 @@
                 <Entry x:Name="emailEntry" Placeholder="imagine.using@gmail.com" WidthRequest="400"/>
                 <Label Text="Phone:" FontSize="18"/>
                 <Entry x:Name="phoneNumberEntry" Keyboard="Telephone" Placeholder="123-456-7890" WidthRequest="400"/>
+                <Label Text="Password:" FontSize="18"/>
+                <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="super_secret" WidthRequest="400"/>
                 <Label HeightRequest="50"/>
 
                 <Label HorizontalTextAlignment="Center" FontSize="18" FontAttributes="Bold" Text="Vehicle Info"/>

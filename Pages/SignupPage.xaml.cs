@@ -15,6 +15,7 @@ namespace FinalAssignment.Pages {
             String customerLastName = this.LastNameEntry.Text;
             String customerEmail = this.emailEntry.Text;
             String customerPhone = this.phoneNumberEntry.Text;
+            String customerPassword = this.passwordEntry.Text;
             String customerAddress = this.addressEntry.Text;
             String vehicleMake = this.vehicleMakeEntry.Text;
             String vehicleModel = this.vehicleModelEntry.Text;
@@ -23,12 +24,12 @@ namespace FinalAssignment.Pages {
                 customerLastName,
                 customerEmail,
                 customerPhone,
+                customerPassword,
                 customerAddress,
-                vehicleMake + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleModel + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleYear.ToString(),
+                vehicleMake + "|" + vehicleModel + "|" + vehicleYear.ToString(),
                 ""
             );
-            // TODO: Add back in when database is created
-            //MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
+            MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
             MauiProgram.setProfile(c);
             await Navigation.PushAsync(new HomePage());
         }

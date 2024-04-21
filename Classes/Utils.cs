@@ -30,11 +30,11 @@
             return flag;
         }
 
-        private void setPrimaryColor(View v) {
+        public void setPrimaryColor(View v) {
             v.BackgroundColor = this.getPrimaryColor();
         }
 
-        private void setErrorColor(View v) {
+        public void setErrorColor(View v) {
             v.BackgroundColor = Color.FromRgb(255, 0, 0);
         }
 
@@ -47,3 +47,4 @@
         }
     }
 }
+
