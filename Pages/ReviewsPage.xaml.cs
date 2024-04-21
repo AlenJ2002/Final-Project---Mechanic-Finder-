@@ -10,14 +10,14 @@ namespace FinalAssignment.Pages {
 
         private void DisplayMechanicShopDetails() {
             // Clear existing reviews
-            this.reviewList.ClearLogicalChildren();
+            this.reviewList.Clear();
 
             Label spacer1 = new Label();
             spacer1.HeightRequest = 20;
             this.reviewList.Add(spacer1);
 
             // Display reviews
-            foreach (var review in MauiProgram.getDatabaseCommunicator().getReviews()) {
+            foreach (var review in MauiProgram.getDatabaseCommunicator().getReviewsFromDatabase()) {
                 Frame reviewFrame = new Frame();
                 reviewFrame.BackgroundColor = new Utils().getPrimaryColor();
                 reviewFrame.MinimumHeightRequest = 100;
@@ -89,20 +89,27 @@ namespace FinalAssignment.Pages {
         public async void onSubmitButtonClicked(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
 
-            // TODO: Add review to DB
             String reviewName = ReviewerNameEntry.Text;
             Int32 reviewRating = Convert.ToInt32(Math.Round(ratingSlider.Value));
             String reviewComment = CommentsEntry.Text;
 
-            // Add review
-            MauiProgram.getDatabaseCommunicator().addReview(new Review(reviewName, reviewRating, reviewComment));
-            await this.DisplayAlert("Success", "Thanks for your review!", "noice");
-            await Navigation.PushAsync(new HomePage());
+            // Add review to db
+            String result = MauiProgram.getDatabaseCommunicator().addToReviewDatabase(new Review(reviewName, reviewRating, reviewComment));
+            if (result.Length > 0) {
+                // only error should be same customer
+                await this.DisplayAlert("Error", result, "oops");
+                new Utils().setErrorColor(this.ReviewerNameEntry);
+            } else {
+                this.resetForm();
+                await this.DisplayAlert("Success", "Thanks for your review!", "noice");
+            }
+
+            this.DisplayMechanicShopDetails();
         }
 
         // Other event handlers for displaying mechanic shop list, selecting a mechanic shop, etc.
         private double GetAverageRatingForMechanicShop() {
-            List<Review> reviews = MauiProgram.getDatabaseCommunicator().getReviews();
+            List<Review> reviews = MauiProgram.getDatabaseCommunicator().getReviewsFromDatabase();
 
             if (reviews.Count == 0) {
                 return 0; // No reviews yet
@@ -114,6 +121,14 @@ namespace FinalAssignment.Pages {
             }
 
             return (double)totalRating / reviews.Count;
+        }
+
+        // reset all fields and colours
+        private void resetForm() {
+            this.ReviewerNameEntry.BackgroundColor = Color.FromRgb(255, 255, 255);
+            this.ReviewerNameEntry.Text = "";
+            this.ratingSlider.Value = 1;
+            this.CommentsEntry.Text = "";
         }
     }
 }

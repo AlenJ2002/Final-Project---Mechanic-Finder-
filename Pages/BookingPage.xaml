@@ -18,9 +18,9 @@
                 <Label WidthRequest="400" FontSize="18" Text="Service Type:"/>
                 <Picker WidthRequest="400" x:Name="serviceTypePicker" SelectedIndexChanged="onServicePickerChanged"/>
                 <Label WidthRequest="400" FontSize="18" Text="Date:"/>
-                <DatePicker WidthRequest="400" TextColor="White" x:Name="serviceDatePicker"/>
+                <DatePicker WidthRequest="400" TextColor="White" x:Name="serviceDatePicker" Date="{Binding SelectedDate}" MinimumDate="{Binding MinimumDate}"/>
                 <Label WidthRequest="400" FontSize="18" Text="Time:"/>
-                <TimePicker WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceTimePicker"/>
+                <TimePicker WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceTimePicker" Time="{Binding SelectedTime}" IsEnabled="{Binding IsTimePickerEnabled}" />
                 <Label WidthRequest="400" FontSize="18" Text="Estimated Cost:"/>
                 <Entry WidthRequest="400" BackgroundColor="{StaticResource Primary}" TextColor="White" x:Name="serviceCostLabel" Text="$0.00" IsReadOnly="True"/>
                 <Label HeightRequest="50"/>

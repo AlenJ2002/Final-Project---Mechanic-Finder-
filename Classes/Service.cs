@@ -1,11 +1,14 @@
 ﻿namespace FinalAssignment.Classes {
+    // service types:
     internal enum ServiceEnum {
         MAINTENANCE,
         DIAGNOSTICS,
         REPAIR,
-        MISC
+        MISC,
+        NONE
     }
 
+    // service class
     internal class Service {
 
         private readonly Dictionary<ServiceEnum, Double> serviceCost = new Dictionary<ServiceEnum, Double>();
@@ -19,6 +22,7 @@
         }
 
         public double GetServicePrice(ServiceEnum serviceIn) {
+            // get price for a service
             return this.serviceCost.GetValueOrDefault(serviceIn);
         }
 
@@ -27,6 +31,7 @@
         }
 
         internal static ServiceEnum getServiceFromString(String serviceNameIn) {
+            // get a service using a string
             switch (serviceNameIn) {
                 case "MAINTENANCE":
                     return ServiceEnum.MAINTENANCE;
@@ -34,12 +39,15 @@
                     return ServiceEnum.DIAGNOSTICS;
                 case "REPAIR":
                     return ServiceEnum.REPAIR;
+                case "NONE":
+                    return ServiceEnum.NONE;
                 default:
                     return ServiceEnum.MISC;
             }
         }
 
         internal static String getStringFromService(ServiceEnum serviceIn) {
+            // get a string using a service
             switch (serviceIn) {
                 case ServiceEnum.MAINTENANCE:
                     return "MAINTENANCE";
@@ -47,12 +55,15 @@
                     return "DIAGNOSTICS";
                 case ServiceEnum.REPAIR:
                     return "REPAIR";
+                case ServiceEnum.NONE:
+                    return "NONE";
                 default:
                     return "MISC";
             }
         }
 
         internal static ServiceEnum getRecommendedService(String searchTermIn) {
+            // recommends a service based on a search string
             switch (searchTermIn) {
                 case "oil":
                     return ServiceEnum.MAINTENANCE;
@@ -90,3 +101,4 @@
         }
     }
 }
+

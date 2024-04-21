@@ -11,10 +11,18 @@ namespace FinalAssignment.Pages {
         private async void SignupContinue(object sender, EventArgs e) {
             if (new Utils().validatePage(this) == false) return;
 
+            String customerEmail = this.emailEntry.Text;
+            if (MauiProgram.getDatabaseCommunicator().getCustomerByEmail(customerEmail) != null) {
+                this.DisplayAlert("Error", "This e-mail is already registed! Try again.", "oops");
+                new Utils().setErrorColor(this.emailEntry);
+                return;
+            }
+
+            // create a customer using the fields
             String customerFirstName = this.FirstNameEntry.Text;
             String customerLastName = this.LastNameEntry.Text;
-            String customerEmail = this.emailEntry.Text;
             String customerPhone = this.phoneNumberEntry.Text;
+            String customerPassword = this.passwordEntry.Text;
             String customerAddress = this.addressEntry.Text;
             String vehicleMake = this.vehicleMakeEntry.Text;
             String vehicleModel = this.vehicleModelEntry.Text;
@@ -23,13 +31,17 @@ namespace FinalAssignment.Pages {
                 customerLastName,
                 customerEmail,
                 customerPhone,
+                customerPassword,
                 customerAddress,
-                vehicleMake + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleModel + DatabaseCommunicator.DATABASE_LIST_DELIMITER + vehicleYear.ToString(),
+                vehicleMake + "|" + vehicleModel + "|" + vehicleYear.ToString(),
                 ""
             );
-            // TODO: Add back in when database is created
-            //MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
+
+            // add to db
+            MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
+            // set the global user profile
             MauiProgram.setProfile(c);
+            // redirect
             await Navigation.PushAsync(new HomePage());
         }
     }
