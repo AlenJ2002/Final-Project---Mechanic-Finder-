@@ -15,6 +15,7 @@ namespace FinalAssignment.Pages {
             String customerLastName = this.LastNameEntry.Text;
             String customerEmail = this.emailEntry.Text;
             String customerPhone = this.phoneNumberEntry.Text;
+            String customerPassword = this.passwordEntry.Text;
             String customerAddress = this.addressEntry.Text;
             String vehicleMake = this.vehicleMakeEntry.Text;
             String vehicleModel = this.vehicleModelEntry.Text;
@@ -23,8 +24,9 @@ namespace FinalAssignment.Pages {
                 customerLastName,
                 customerEmail,
                 customerPhone,
+                customerPassword,
                 customerAddress,
-                vehicleMake + DatabaseManager.DATABASE_LIST_DELIMITER + vehicleModel + DatabaseManager.DATABASE_LIST_DELIMITER + vehicleYear.ToString(),
+                vehicleMake + "|" + vehicleModel + "|" + vehicleYear.ToString(),
                 ""
             );
             MauiProgram.getDatabaseCommunicator().addToCustomerDatabase(c);
